@@ -1,0 +1,223 @@
+.background {
+  background-color: #000000;
+  width: 100%;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  flex-direction: column;
+}
+
+.backgroundimg {
+  /*
+  background-image: url(/static/images/BioCenter-banner-principal.png);*/
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: row;
+  color: #18bd36;
+  height: 50vh;
+  background-color: #ffffff;
+}
+
+.backgroundimg span{
+  font-size: 28px;
+  letter-spacing: 8px;
+  font-weight: 200;
+  color: #000000;
+}
+
+.backgroundMovidos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/static/images/Movidos.jpg);
+  z-index: 123;
+}
+
+
+.backgroundHistoria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/static/images/historia.png);
+  z-index: 123;
+}
+
+.banquemsomos {
+  
+  background-image: url(/static/images/BioCenter-banner-principal.png);
+  background-position: center;
+  background-size: cover;
+
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 100%;
+  max-width: 80rem;
+  border-radius: 1rem;
+  margin-top: -10rem;
+}
+
+.interno {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 80rem;
+}
+
+.interno3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 70%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/static/images/thumb-video.jpg);
+  border-radius: 1rem;
+  z-index: 12345678;
+  padding: 10rem;
+}
+
+.paragrafo {
+  color: #ffffff;
+  font-size: 18px;
+  width: 100%;
+  line-height: 28px;
+}
+
+.paragrafo2 {
+  color: #ffffff;
+  font-size: 16px;
+  width: 100%;
+}
+
+.paragrafo2 h2{
+  margin-top: 1rem;
+  font-size: 56px;
+}
+
+.paragrafo2 h4{
+  font-size: 18px;
+  margin: 0.3rem 0rem 1rem 0rem;
+  font-weight: 600;
+}
+
+.paragrafo2 h3 {
+  font-size: 16px;
+  font-weight: 400;
+  border-left: 3px solid #18bd36;
+  padding: 0.3rem 0rem 0.3rem 1rem;
+}
+
+.botaomec {
+  position:absolute;
+  margin-top: 2rem;
+  background-color: transparent;
+  color: #ffffff;
+  padding: 0.75rem 3rem;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  transition: 1s ease;
+  cursor: pointer;
+}
+
+.botaomec:hover {
+  background-color: #18bd36;
+  color: #ffffff;
+  border: 1px solid #18bd36;
+  transition: 1s ease;
+}
+
+
+.titulo2 {
+  color: #18bd36;
+  font-size: 48px;
+  margin-bottom: 1rem;
+}
+
+.quemsomos {
+  width: 100%;
+  max-width: 35rem;
+  margin-left: 5rem;
+}
+
+.parceiros {
+  width: 100%;
+  max-width: 40rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.parceirosimg {
+  width: 100%;
+  max-width: 15rem;
+}
+.box {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.box2 {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.box3 {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/static/images/footer.jpg);
+  z-index: 123;
+}
+
+.botaofooter {
+  background-color: #18bd36;
+  color: #fff;
+  padding: 0.75rem 3rem;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.botaofooter:hover {
+  background-color: #18bd36;
+}

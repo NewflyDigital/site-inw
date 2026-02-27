@@ -1,0 +1,295 @@
+.background {
+  background-color: #000000;
+  width: 100%;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  flex-direction: column;
+}
+
+.background3 {
+  background-color: #1e1e1e;
+  width: 100%;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  flex-direction: column;
+}
+
+
+.backgroundMovidos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/static/images/Movidos.jpg);
+  z-index: 123;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/static/images/footer.jpg);
+  z-index: 123;
+}
+
+.interno {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 80rem;
+}
+
+
+.interno3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 70%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/static/images/thumb-video.jpg);
+  z-index: 12345678;
+  padding: 10rem;
+}
+
+.box {
+  width: 100%;
+  max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.box2 {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.box3 {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Right {
+  width: 100%;
+  max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-items: flex-start;
+  margin-left: 1rem;
+}
+
+.titulo {
+  color: #18bd36;
+  margin: 1rem 0rem;
+}
+
+.paragrafo {
+  color: #ffffff;
+  font-size: 16px;
+  width: 100%;
+}
+
+.quemsomos {
+  width: 100%;
+  max-width: 35rem;
+  transition: transform 0.4s ease;
+}
+
+.quemsomos:hover {
+  transform: translateX(15px);
+}
+
+.parceiros {
+  width: 100%;
+  max-width: 90rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.parceiros img {
+  width: 100%;
+  max-width: 18rem;
+}
+
+.parceiros h3 {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.parceiros b {
+  font-weight: 600;
+}
+
+.banparceiro {
+  width: 100%;
+  max-width: 18rem;
+  margin-top: 5rem;
+}
+
+.titulo3 {
+  color: #ffffff;
+}
+
+.bgmec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #18bd36;
+  padding-top: 2.5rem;
+  padding-bottom: 5rem;
+  color: #ffffff;
+  flex-direction: column;
+}
+
+.bgmec h2{
+  margin-top: 1rem;
+  font-size: 56px;
+}
+
+.bgmec h4{
+  font-size: 18px;
+  color: #ffffffa4;
+  margin: 0.3rem 0rem 1rem 0rem;
+  font-weight: 600;
+}
+
+.bgmec h3 {
+  font-size: 16px;
+  font-weight: 400;
+  border-left: 3px solid #ffffff;
+  padding: 0.3rem 0rem 0.3rem 1rem;
+}
+
+.EntreContato {
+  position:absolute;
+  margin-top: 2rem;
+  background-color: transparent;
+  color: #fff;
+  padding: 0.75rem 3rem;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  transition: 1s ease;
+  cursor: pointer;
+}
+
+.EntreContato:hover {
+  background-color: #b33300;
+  border:1px solid #b33300;
+  transition: 1s ease;
+}
+
+.botaofooter {
+  background-color: #18bd36;
+  color: #fff;
+  padding: 0.75rem 3rem;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.botaofooter:hover {
+  background-color: #b33300;
+}
+
+@media only screen and (min-width: 216px) and (max-width: 926px) {
+  .background {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .background2 {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+  }
+
+  .interno {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 35rem;
+  }
+
+  .interno2 {
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 35rem;
+  }
+
+  .box {
+    width: 100%;
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sessoes {
+    max-width: 35rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .botao1 {
+    font-size: 19px;
+  }
+
+  .botao2 {
+    font-size: 18px;
+  }
+
+  .estrutura img {
+    max-width: 16.5rem;
+  }
+
+  .atividades {
+    flex-wrap: wrap;
+  }
+
+  .imageletreiro {
+    width: 100%;
+    max-width: 45rem;
+    margin-top: -12rem;
+    position: absolute;
+    right: 8rem;
+  }
+
+  .somosbio {
+    font-size: 42px;
+  }
+}
