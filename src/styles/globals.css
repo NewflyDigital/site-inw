@@ -4,6 +4,8 @@
 :root {
   --color-primary: #fff;
   --color-secondary: #33A851;
+  --swiper-navigation-color: #18bd36;
+  --swiper-pagination-color: #18bd36;
 }
 
 html,

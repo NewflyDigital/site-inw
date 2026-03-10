@@ -18,7 +18,7 @@ import Backdrop from "@mui/material/Backdrop";
 import CircularProgress from "@mui/material/CircularProgress";
 import Menu from "../components/menu";
 import Rodape from "../components/rodape";
-import GoogleMap from "../components/map";
+ 
 import CssBaseline from "@mui/material/CssBaseline";
 import Whats from "../components/whats";
 import Link from "next/link";

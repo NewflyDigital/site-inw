@@ -10,7 +10,7 @@
   flex-direction: row;
   color: #ffffff;
   height: 60vh;
-  background-color: #b33300;
+  background-color: #128126;
 }
 
 .backgroundimg span {
@@ -57,7 +57,7 @@
 }
 
 .botaofooter:hover {
-  background-color: #b33300;
+  background-color: #128126;
 }
 
 .background {

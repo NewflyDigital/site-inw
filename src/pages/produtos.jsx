@@ -7,7 +7,7 @@ import Banner from "../components/banner";
 import Menu from "../components/menu";
 import styles from "../styles/Produtos.module.css";
 import Link from "next/link";
-import GoogleMap from "../components/map";
+ 
 import Rodape from "../components/rodape";
 import Whats from "../components/whats";
 import RodapeNewFly from "../components/rodape-newfly";

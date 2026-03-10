@@ -66,19 +66,19 @@ function Menu() {
             </Link>
           </li>
           <li className={styles.li}>
-            <Link legacyBehavior href="/a-mec">
+            <Link legacyBehavior href="/">
               <a>Encontre um vendedor</a>
             </Link>
           </li>
 
           <li className={styles.li}>
-            <Link legacyBehavior href="/#OndeAtendemos">
+            <Link legacyBehavior href="/">
               <a>Nossos Implementos</a>
             </Link>
           </li>
 
           <li className={styles.li}>
-            <Link legacyBehavior href="/contato">
+            <Link legacyBehavior href="/">
               <a>Contato</a>
             </Link>
           </li>
