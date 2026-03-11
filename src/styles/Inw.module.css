@@ -17,6 +17,8 @@
   align-items: center;
   width: 100%;
   max-width: 80rem;
+  gap: 2rem;
+  padding: 0 1.5rem;
 }
 
 .box {
@@ -284,6 +286,7 @@
 /*Categorias*/
 .categorias {
   width: 100%;
+  max-width: 45rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -371,7 +374,177 @@
 
 /*FIM Categorias*/
 
+/* ----------------------------- */
+/* BREADCRUMB */
+/* ----------------------------- */
+
+.breadcrumb {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+  color: #000;
+}
+
+.breadcrumb a {
+  color: #18bd36;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+
+/* ----------------------------- */
+/* SOBRE NÓS */
+/* ----------------------------- */
+
+.sobreContainer {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sobreTexto {
+  width: 100%;
+  max-width: 50rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sobreTexto h1 {
+  font-size: 56px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+
+.sobreTexto p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+
+/* ----------------------------- */
+/* MÉTRICAS */
+/* ----------------------------- */
+
+.metricas {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+.metricaBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.metricaNumero {
+  font-size: 64px;
+  font-weight: 800;
+  color: #18bd36;
+}
+
+.metricaTexto {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
+/* ----------------------------- */
+/* GRID OBJETIVOS */
+/* ----------------------------- */
+
+.objetivosGrid {
+  width: 100%;
+  max-width: 80rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.objetivoItem {
+  padding: 2rem;
+  border: 1px solid #d8d8d8;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+.objetivoItem:hover {
+  background-color: #18bd36;
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+.objetivoItem h4 {
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+
+/* ----------------------------- */
+/* PORTFÓLIO */
+/* ----------------------------- */
+
+.portfolioLista {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.portfolioLista li {
+  font-size: 15px;
+}
+
+
+/* ----------------------------- */
+/* MISSÃO */
+/* ----------------------------- */
+
+.missao {
+  width: 100%;
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+
 @media only screen and (min-width: 216px) and (max-width: 926px) {
+    .sobreContainer {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .metricas {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .objetivosGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .sobreTexto h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
   .background {
     justify-content: center;
     align-items: center;

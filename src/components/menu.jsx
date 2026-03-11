@@ -66,7 +66,7 @@ function Menu() {
             </Link>
           </li>
           <li className={styles.li}>
-            <Link legacyBehavior href="/">
+            <Link legacyBehavior href="/encontre-um-vendedor">
               <a>Encontre um vendedor</a>
             </Link>
           </li>
@@ -78,7 +78,7 @@ function Menu() {
           </li>
 
           <li className={styles.li}>
-            <Link legacyBehavior href="/">
+            <Link legacyBehavior href="/contato">
               <a>Contato</a>
             </Link>
           </li>
@@ -154,7 +154,7 @@ function Menu() {
               </div>
             </Link>
 
-            <Link href="/a-mec" className={styles.menuItem}>
+            <Link href="/a-inw" className={styles.menuItem}>
               <div className={`${styles.card} ${styles.img2}`}>
                 <h4>Empresa</h4>
                 <p>Conheça nossa história</p>
@@ -162,7 +162,7 @@ function Menu() {
               </div>
             </Link>
 
-              <Link href="/a-mec" className={styles.menuItem}>
+              <Link href="/" className={styles.menuItem}>
               <div className={`${styles.card} ${styles.img3}`}>
                 <h4>Fale Conosco</h4>
                 <p>Entre em contato que vamos te atender e tirar suas dúvidas.</p>

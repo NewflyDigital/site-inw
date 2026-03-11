@@ -1,0 +1,254 @@
+/* HERO */
+
+.background {
+  background-color: #ffffff;
+  width: 100%;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  flex-direction: column;
+}
+
+.interno {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.box {
+  width: 100%;
+  max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* BREADCRUMB */
+
+.breadcrumb {
+  font-size: 0.875rem;
+  color: #6b6b6b;
+}
+
+/* TÍTULOS */
+
+.titulo {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 72px;
+  text-transform: uppercase;
+}
+
+.subtitulo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.texto {
+  font-size: 1rem;
+  color: #6b6b6b;
+}
+
+/* IMAGEM HERO */
+
+.heroImagem {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  max-width: 65rem;
+  z-index: 1;
+}
+
+.heroImagem img {
+  width: 100%;
+  height: auto;
+}
+
+/*Botão*/
+.Botao {
+  margin-top: 22px;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 18rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  transition: background 0.3s ease;
+  border-radius: 24px;
+  border: 1px solid #18bd36;
+  color: #18bd36;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.Botao img {
+  margin-left: 6px;
+  width: 100%;
+  max-width: 12px;
+  margin-top: 0rem;
+}
+
+.Botao:hover img {
+  filter: brightness(0) invert(1);
+}
+
+.Botao:hover {
+  background-color: #18bd36;
+  color: #fff;
+  border-color: 2px solid #18bd36;
+  transition: background 0.3s ease;
+}
+
+/* MAPA */
+
+.mapaSection {
+  margin-top: 4rem;
+  width: 100%;
+  max-width: 100rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  background-color: #f1f1f1;
+  color: #000000;
+}
+
+.tituloMapa {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+
+.mapaBrasil {
+  width: 100%;
+  height: auto;
+}
+
+.estado {
+  fill: #d9d9d9;
+  stroke: #ffffff;
+  stroke-width: 2;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.estado:hover {
+  fill: #18bd36;
+}
+
+.listaRepresentantes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cardRepresentante {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border: 0.125rem solid #18bd36;
+  border-radius: 1rem;
+
+  padding: 2rem 1.5rem;
+  max-width: 20rem;
+
+  background: transparent;
+
+  transition: all 0.35s ease;
+  cursor: pointer;
+}
+
+/* TÍTULO */
+
+.cardRepresentante h3 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: #18bd36;
+  line-height: 1.2;
+  transition: color 0.3s ease;
+}
+
+/* TEXTO */
+
+.cardRepresentante p {
+  color: #6b6b6b;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+/* TELEFONE */
+
+.cardRepresentante a {
+  color: #18bd36;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* HOVER */
+
+.cardRepresentante:hover {
+  background: #18bd36;
+  transform: translateY(-0.4rem);
+  box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.12);
+}
+
+/* INVERTE CORES */
+
+.cardRepresentante:hover h3,
+.cardRepresentante:hover p,
+.cardRepresentante:hover a {
+  color: #ffffff;
+}
+
+/* HOVER TELEFONE */
+
+.cardRepresentante:hover a {
+  text-decoration: underline;
+}
+
+/* RESPONSIVO */
+
+@media only screen and (min-width: 216px) and (max-width: 926px) {
+  .interno {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 35rem;
+    gap: 2rem;
+  }
+
+  .box {
+    align-items: center;
+    text-align: center;
+  }
+
+  .titulo {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .heroImagem {
+    max-width: 35rem;
+  }
+}

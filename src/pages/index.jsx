@@ -75,16 +75,16 @@ export default function Home() {
     },
   ];
 
-const ref = useRef(null);
+  const ref = useRef(null);
 
-const { scrollYProgress } = useScroll({
-  target: ref,
-  offset: ["start end", "end start"]
-});
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start end", "end start"],
+  });
 
-const y1 = useTransform(scrollYProgress, [0, 1], [-120, 120]);
-const y2 = useTransform(scrollYProgress, [0, 1], [120, -120]);
-const y3 = useTransform(scrollYProgress, [0, 1], [-80, 80]);
+  const y1 = useTransform(scrollYProgress, [0, 1], [-120, 120]);
+  const y2 = useTransform(scrollYProgress, [0, 1], [120, -120]);
+  const y3 = useTransform(scrollYProgress, [0, 1], [-80, 80]);
 
   return (
     <>
@@ -220,37 +220,109 @@ const y3 = useTransform(scrollYProgress, [0, 1], [-80, 80]);
         </div>
       </section>
 
-   <section ref={ref} className={styles.background}>
-  <div className={styles.internoImages}>
+      <section ref={ref} className={styles.background}>
+        <div className={styles.internoImages}>
+          <motion.img
+            className={styles.MoveImage}
+            style={{ y: y1 }}
+            src="/static/images/Vertical-bigtanque.png"
+          />
 
-    <motion.img
-      className={styles.MoveImage}
-      style={{ y: y1 }}
-      src="/static/images/Vertical-bigtanque.png"
-    />
+          <motion.img
+            className={styles.MoveImage}
+            style={{ y: y2 }}
+            src="/static/images/Vertical-canudao.png"
+          />
 
-    <motion.img
-      className={styles.MoveImage}
-      style={{ y: y2 }}
-      src="/static/images/Vertical-canudao.png"
-    />
-
-    <motion.img
-      className={styles.MoveImage}
-      style={{ y: y3 }}
-      src="/static/images/Vertical-fastseed.png"
-    />
-
-  </div>
-</section>
+          <motion.img
+            className={styles.MoveImage}
+            style={{ y: y3 }}
+            src="/static/images/Vertical-fastseed.png"
+          />
+        </div>
+      </section>
 
       <section className={styles.footer}>
-          <div className={styles.boxfooter}>
-            <h2>Soluções em Implementos</h2>
-            <Link legacyBehavior href="/contato">
-              <a className={styles.botaofooter}>Fale Conosco</a>
+        <div className={styles.boxfooter}>
+          <h2>Soluções em Implementos</h2>
+          <Link legacyBehavior href="/contato">
+            <a className={styles.botaofooter}>Fale Conosco</a>
+          </Link>
+        </div>
+      </section>
+
+      <section ref={ref} className={styles.background}>
+        <div className={`${styles.interno} mt-10`}>
+          <div className="w-full max-w-[58rem] flex flex-col items-start justify-center">
+            <h2 className="w-full font-[800] uppercase leading-[72px] text-[56px]">
+              categorias
+            </h2>
+          </div>
+          <div className="w-full max-w-[22rem] flex flex-col items-start justify-center">
+            <p className="text-[14px] leading-[22px]">
+              Junto ao agro você resiste aos desafios da terra, do tempo e do
+              mundo. Nossos implementos resistem com você.
+            </p>
+            <Link legacyBehavior href="/implementos">
+              <a
+                className={`${styles.Link} FLEX FLEX-ROW uppercase font-[800] mt-3 items-center justify-center`}
+              >
+                Todos os produtos{" "}
+                <img
+                  className="w-full max-w-[1rem] ml-2"
+                  src="/static/images/seta-vertical.png"
+                />
+              </a>
             </Link>
           </div>
+        </div>
+        <div className={`${styles.interno} mt-20`}>
+          <div className="w-full max-w-[35rem] flex flex-col items-start justify-center">
+            <img
+              className="w-full max-w-[34rem] "
+              src="/static/images/Implementos.png"
+              alt="Implementos" 
+            />
+          </div>
+          <div className="w-full max-w-[45rem] flex flex-col items-end gap-4 justify-center">
+            <div className={styles.categorias}>
+              <h4>Combate à incêndio</h4>{" "}
+              <Link legacyBehavior href="/contato">
+                <a className={styles.Botao2}>
+                  leia mais
+                  <img
+                    className="w-full max-w-[1rem] ml-2"
+                    src="/static/images/seta-vertical.png"
+                  />
+                </a>
+              </Link>
+            </div>
+            <div className={styles.categorias}>
+              <h4>Combate à incêndio</h4>{" "}
+              <Link legacyBehavior href="/contato">
+                <a className={styles.Botao2}>
+                  leia mais
+                  <img
+                    className="w-full max-w-[1rem] ml-2"
+                    src="/static/images/seta-vertical.png"
+                  />
+                </a>
+              </Link>
+            </div>
+            <div className={styles.categorias}>
+              <h4>Combate à incêndio</h4>{" "}
+              <Link legacyBehavior href="/contato">
+                <a className={styles.Botao2}>
+                  leia mais
+                  <img
+                    className="w-full max-w-[1rem] ml-2"
+                    src="/static/images/seta-vertical.png"
+                  />
+                </a>
+              </Link>
+            </div>
+          </div>
+        </div>
       </section>
 
       <Rodape />

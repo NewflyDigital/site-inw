@@ -33,14 +33,14 @@ function Rodape() {
               alt="Logo Flow"
               className={styles.logo}
             />
-            <p><b>Serra/ES</b><br />
-              Rua Carcará, 07
+            <p>
+              <b>Victor GraefF/RS</b>
               <br />
-              Rua Carcará, Novo Horizonte
+              RS 142 lote 01, KM 38
               <br />
-              CEP: 29.163-356 - ES
+              CEP:99350-000
             </p>
-            </div>
+          </div>
 
           <div className={styles.divisor}></div>
 
@@ -48,52 +48,63 @@ function Rodape() {
             <div className={styles.coluna}>
               <h4>Menu</h4>
               <Link legacyBehavior href="/">
-                <a>Home</a>
+                <a>Início</a>
               </Link>
-              <Link legacyBehavior href="/mec">
-                <a>A MEC</a>
+              <Link legacyBehavior href="/">
+                <a>Sobre Nós</a>
               </Link>
-              <Link legacyBehavior href="/produtos">
-                <a>Equipamentos</a>
+              <Link legacyBehavior href="/">
+                <a>Encontre um Vendedor</a>
               </Link>
-              <Link legacyBehavior href="#OndeAtendemos">
-                <a>Onde Atendenmos</a>
+              <Link legacyBehavior href="/">
+                <a>Nossos Implementos</a>
               </Link>
-              <Link legacyBehavior href="/contato">
+              <Link legacyBehavior href="/">
                 <a>Contato</a>
               </Link>
-            </div>            
-            <div className={styles.social}>
-              <div className={styles.icones}>
-                <Link
-                  legacyBehavior
-                  href="https://www.instagram.com/inwsolucoes_/"
-                >
-                  <a target="_blank">
-                    <img src="/instagram-branco.png" alt="Instagram" />
-                  </a>
-                </Link>
-                <Link
-                  legacyBehavior
-                  href="https://www.facebook.com/inwsolucoesind"
-                >
-                  <a target="_blank">
-                    <img src="/facebook-branco.png" alt="Facebook" />
-                  </a>
-                </Link>
-                <Link
-                  legacyBehavior
-                  href="https://www.linkedin.com/company/inwsolucoes/"
-                >
-                  <a target="_blank">
-                    <img src="/linkedin-branco.png" alt="Facebook" />
-                  </a>
-                </Link>
+            </div>
+            <div className="w-full max-w-[25rem] flex flex-col items-start justify-center">
+              <div className={styles.social}>
+                <div className={styles.icones}>
+                  <Link
+                    legacyBehavior
+                    href="https://www.instagram.com/inwsolucoes_/"
+                  >
+                    <a target="_blank">
+                      <img src="/instagram-branco.png" alt="Instagram" />
+                    </a>
+                  </Link>
+                  <Link
+                    legacyBehavior
+                    href="https://www.facebook.com/inwsolucoesind"
+                  >
+                    <a target="_blank">
+                      <img src="/facebook-branco.png" alt="Facebook" />
+                    </a>
+                  </Link>
+                  <Link
+                    legacyBehavior
+                    href="https://www.linkedin.com/company/inwsolucoes/"
+                  >
+                    <a target="_blank">
+                      <img src="/linkedin-branco.png" alt="Facebook" />
+                    </a>
+                  </Link>
+                </div>
+                <p>
+                  <strong>Siga a INW</strong>
+                  <br />
+                  nas redes Sociais
+                </p>
               </div>
-              <p>
-                <strong>Siga a INW</strong>
+              <p className="mt-5 text-[15px] leading-[22px]">
+                <b className="text-[18px]">Fale Conosco:</b>
                 <br />
-                nas redes Sociais
+                (54) 9 9139-1183
+                <br />
+                (54) 3338-1010
+                <br />
+                (54) 3338-1418
               </p>
             </div>
           </div>
