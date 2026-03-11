@@ -162,7 +162,7 @@ function Menu() {
               </div>
             </Link>
 
-              <Link href="/" className={styles.menuItem}>
+              <Link href="/contato" className={styles.menuItem}>
               <div className={`${styles.card} ${styles.img3}`}>
                 <h4>Fale Conosco</h4>
                 <p>Entre em contato que vamos te atender e tirar suas dúvidas.</p>
