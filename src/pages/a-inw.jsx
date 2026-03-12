@@ -83,7 +83,7 @@ export default function QuemSomos() {
           <div className="flex flex-col items-center text-center">
             <img
               className="max-w-[18rem]"
-              src="/static/images/mapa-brasil.png"
+              src="/static/images/brasil.png"
             />
             <p className="mt-3 text-[14px]">
               Presente nas principais regiões agrícolas do Brasil

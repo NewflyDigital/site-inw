@@ -310,19 +310,19 @@
 }
 
 .img1::after {
-  background-image: url("/static/images/banner-principal.jpg");
+  background-image: url("/static/images/Menu-Implementos.jpg");
 }
 
 .img2::after {
-  background-image: url("/static/images/banner-principal.jpg");
+  background-image: url("/static/images/Menu-Empresa.jpg");
 }
 
 .img3::after {
-  background-image: url("/static/images/banner-principal.jpg");
+  background-image: url("/static/images/Menu-Contato.jpg");
 }
 
 .img4::after {
-  background-image: url("/static/images/banner-principal.jpg");
+  background-image: url("/static/images/Menu-Contato.jpg");
 }
 
 .card h4,

@@ -72,7 +72,7 @@ function Menu() {
           </li>
 
           <li className={styles.li}>
-            <Link legacyBehavior href="/">
+            <Link legacyBehavior href="/implementos">
               <a>Nossos Implementos</a>
             </Link>
           </li>
@@ -105,12 +105,12 @@ function Menu() {
             <div className={styles.divider}></div>
 
             <div className={styles.buttons}>
-              <button className={styles.orcamento}>
+              <Link className={styles.orcamento} href="/contato">
                 Orçamento <img src="/static/images/seta-vertical-branca.png" />
-              </button>
-              <button className={styles.contato}>
+              </Link>
+              <Link className={styles.contato} href="/contato">
                 Contato <img src="/static/images/seta-vertical-branca.png" />
-              </button>
+              </Link>
             </div>
 
             <div className={styles.social}>
@@ -146,7 +146,7 @@ function Menu() {
 
           {/* COLUNA DIREITA */}
           <div className={styles.right}>
-            <Link href="/" className={styles.menuItem}>
+            <Link href="/implementos" className={styles.menuItem}>
               <div className={`${styles.card} ${styles.img1}`}>
                 <h4>Nossos Implementos</h4>
                 <p>Conheça a linha completa de soluções</p>
