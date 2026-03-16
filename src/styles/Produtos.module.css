@@ -222,66 +222,113 @@
   margin-bottom: 4rem;
 }
 
+/*Produtos*/
+
 .produtos {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .cardProduto {
-  width: 20rem;
-  max-width: 25rem;
+  width: 100%;
+  max-width: 17rem;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+
   border-radius: 1rem;
   border: 1px solid #ffffff;
+
   overflow: hidden;
   background-color: #ffffff;
-  transition: 1s ease;
+
   margin: 2rem 1rem;
   cursor: pointer;
+
+  transition: all 0.4s ease;
 }
 
-.cardProduto:hover {
-  border: 1px solid #18bd36;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  transition: 1s ease;
-}
+/* IMAGEM */
 
+.imagem {
+  background-color: #f4f4f4;
+  padding: 4rem 2rem;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
 
 .cardProduto img {
   width: 100%;
   max-width: 17rem;
-  height: 100%;
+  height: auto;
   margin-top: 1rem;
 }
 
+/* TITULO */
+
 .cardProduto h3 {
-  font-size: 18px;
+  font-size: 1.5rem;
   font-weight: 600;
+  margin: 1rem 0 0 0;
 }
 
-.cardProduto p {
-  font-size: 16px;
-  margin-bottom: 0rem;
-}
+/* DIVISOR */
 
 .cardProduto span {
   width: 100%;
-  background-color: #ffffff;
-  color: #101153;
-  margin: 15px 0px 0px 0px;
-  padding: 1rem;
-  transition: 1s ease;
+  margin: 1rem 0 0 0;
   border-top: 1px solid #d8d8d8;
 }
 
-.cardProduto:hover span {
+/* BOTÃO */
+
+.BotaoProduto {
+  margin-top: 1.4rem;
+  margin-bottom: 1rem;
+
+  width: 100%;
+  max-width: 13rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0.8rem 2rem;
+
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.75rem;
+
+  border-radius: 24px;
+  border: 1px solid #18bd36;
+
+  color: #18bd36;
+  background-color: #ffffff;
+
+  transition: background 0.3s ease;
+}
+
+.BotaoProduto img {
+  margin-left: 0.4rem;
+  width: 100%;
+  max-width: 0.75rem;
+  margin-top: 0;
+}
+
+.BotaoProduto:hover img {
+  filter: brightness(0) invert(1);
+}
+
+.BotaoProduto:hover {
   background-color: #18bd36;
   color: #ffffff;
-  transition: 1s ease;
 }
 /*Footer*/
 

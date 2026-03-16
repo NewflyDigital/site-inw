@@ -34,11 +34,25 @@ export default function Produtos() {
       url: "/canudo-1300",
     },
     {
-      id: 1,
-      nome: "Canudo 1300",
+      id: 2,
+      nome: "Big Tanque",
       imagem: "/static/images/produtos/categorias-bigtanque.png",
       categoria: "Manejo de Fertilizantes",
       url: "/big-tanque",
+    },
+    {
+      id: 3,
+      nome: "Fertilog",
+      imagem: "/static/images/produtos/fertilog.png",
+      categoria: "Manejo de Fertilizantes",
+      url: "/fertilog",
+    },
+    {
+      id: 4,
+      nome: "Fastseed",
+      imagem: "/static/images/produtos/fastseed.png",
+      categoria: "Controlador de Operações",
+      url: "/fastseed",
     },
   ];
 
@@ -116,38 +130,37 @@ export default function Produtos() {
       <section className={styles.background3}>
         <div className={styles.interno}>
           <div className={styles.produtos}>
-            {produtos
-              .filter(
-                (produto) =>
-                  !selectedCategory || produto.categoria === selectedCategory,
-              )
-              .map((produto) => {
-                const Card = (
-                  <div className={styles.cardProduto}>
-                    <img src={produto.imagem} alt={produto.nome} />
-                    <span>
-                      <p>{produto.categoria}</p>
-                      <h3>{produto.nome}</h3>
-                    </span>
-                  </div>
-                );
+  {produtos
+    .filter(
+      (produto) =>
+        !selectedCategory || produto.categoria === selectedCategory
+    )
+    .map((produto) => (
+      <div key={produto.id} className={styles.cardProduto}>
 
-                return produto.url ? (
-                  <a
-                    key={produto.id}
-                    href={produto.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {Card}
-                  </a>
-                ) : (
-                  <div key={produto.id} className={styles.disabled}>
-                    {Card}
-                  </div>
-                );
-              })}
-          </div>
+        <div className={styles.imagem}>
+          <img src={produto.imagem} alt={produto.nome} />
+        </div>
+
+        <span>
+          <h3>{produto.nome}</h3>
+
+          {produto.url && (
+            <a
+              href={produto.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.BotaoProduto}
+            >
+              Ver Detalhes
+              <img src="/static/images/seta-vertical.png" />
+            </a>
+          )}
+        </span>
+
+      </div>
+    ))}
+</div>
         </div>
       </section>
       <section className={styles.footer}>

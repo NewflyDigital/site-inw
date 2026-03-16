@@ -1,7 +1,7 @@
 
 .backgroundimg {
-  /*
-  background-image: url(/static/images/BioCenter-banner-principal.png);*/
+  
+  background-image: url(/static/images/banner-interno.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -10,19 +10,23 @@
   flex-direction: row;
   color: #ffffff;
   height: 50vh;
-  background-color: #101153;
 }
 
 .backgroundimg span{
-  font-size: 28px;
+  font-size: 24px;
   letter-spacing: 8px;
   font-weight: 200;
   color: #18bd36;
+  margin-top: 1rem;
+}
+
+.backgroundimg h2{
+  font-size: 56px;
 }
 
 
 .banquemsomos {
-  background-image: url(/static/images/BioCenter-banner-principal.png);
+  background-image: url(/static/images/banner-interno.jpg);
   background-position: center;
   background-size: cover;
 
@@ -114,13 +118,13 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .produto {
   width: 100%;
   max-width: 50rem;
-  margin-top: -20rem;
+  margin-top: -10rem;
 }
 
 .powder {
@@ -184,7 +188,7 @@
 
 .activeTab .mvvBox  {
   transition: 1s ease-in-out;
-  border-bottom: 0.8rem solid #101153;
+  border-bottom: 0.8rem solid #18bd36;
   padding: 4rem 4rem;
 }
 
@@ -217,14 +221,8 @@
 
 .mvvBox:hover {
   transition: 1s ease-in-out;
-  border-bottom: 0.8rem solid #101153;
+  border-bottom: 0.8rem solid #18bd36;
   padding: 4rem 4rem;
-}
-
-
-.titulo {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
 }
 
 .tabelaBox {
@@ -270,6 +268,64 @@
   justify-content: center;
 }
 
+
+/*Botão*/
+.Botao {
+  width: 100%;
+  max-width: 15rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  transition: all 0.3s ease;
+  border-radius: 24px;
+  border: 2px solid #18bd36;
+  color: #18bd36;
+  background-color: transparent;
+}
+
+.Botao img {
+  margin-left: 6px;
+  width: 100%;
+  max-width: 12px;
+  margin-top: 0rem;
+}
+
+.Botao:hover {
+  background-color: #18bd36;
+  color: #fff;
+  transition: all 0.3s ease;
+  transform: translateX(6px);
+}
+
+.Botao:hover img {
+  filter: brightness(0) invert(1);
+}
+
+.titulo {
+  color: #18bd36;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 72px;
+  text-transform: uppercase;
+}
+
+.paragrafo{
+  color:#3D3D3D;
+  font-size:16px;
+  line-height:1.6;
+  margin-bottom:1rem;
+  margin-right: 2rem;
+}
+
+
+
+/*Footer*/
+
 .footer {
   display: flex;
   justify-content: center;
@@ -278,20 +334,48 @@
   width: 100%;
   background-position: center;
   background-size: cover;
-  background-image: url(/static/images/footer.png);
+  background-image: url(/static/images/footer.jpg);
   z-index: 123;
+  color: #ffffff;
+}
+
+.boxfooter {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .botaofooter {
+  margin-top: 22px;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 18rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  transition: background 0.3s ease;
+  border-radius: 24px;
+  border: 1px solid #18bd36;
+  color: #18bd36;
+  background-color: transparent;
+}
+
+.botaofooter:hover {
   background-color: #18bd36;
   color: #fff;
-  padding: 0.75rem 3rem;
-  text-decoration: none;
-  border-radius: 8px;
+  border-color: 2px solid #18bd36;
   transition: background 0.3s ease;
 }
 
 .botaofooter:hover {
-  background-color: #101153;
+  background-color: #128126;
 }
 
