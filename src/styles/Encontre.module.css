@@ -229,26 +229,37 @@
 
 /* RESPONSIVO */
 
-@media only screen and (min-width: 216px) and (max-width: 926px) {
+
+@media (max-width: 926px) {
+
   .interno {
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    max-width: 35rem;
-    gap: 2rem;
+    justify-content: center;
+    text-align: center;
+    gap: 4rem;
   }
 
   .box {
     align-items: center;
-    text-align: center;
   }
 
   .titulo {
-    font-size: 3rem;
-    line-height: 3rem;
+    font-size: 40px;
+    line-height: 42px;
   }
 
+  .tituloMapa {
+  font-size: 2.3rem;
+}
+
   .heroImagem {
-    max-width: 35rem;
+    position: relative;
+    max-width: 30rem;
   }
+
+  .listaRepresentantes {
+    justify-content: center;
+  }
+
 }

@@ -31,7 +31,7 @@ export default function QuemSomos() {
       {/* SOBRE */}
       <section className={styles.background}>
         <div className={styles.interno}>
-          <div className="w-full max-w-[50rem] flex flex-col gap-6">
+          <div className="w-full max-w-[45rem] flex flex-col gap-6">
             <span className="text-bold flex items-center">
               <img
                 className="w-full max-w-[2rem] mr-2"
@@ -40,7 +40,7 @@ export default function QuemSomos() {
               Sobre Nós
             </span>
 
-            <h1 className="font-[800] text-[56px] leading-[60px] uppercase">
+            <h1 className="font-[800] lg:text-[56px] text-[32px] lg:leading-[60px] leading-[40px] uppercase">
               Há mais de <span className="text-[#18bd36]">14 anos</span>,
               transformamos a agricultura brasileira
             </h1>
@@ -63,8 +63,8 @@ export default function QuemSomos() {
             </p>
           </div>
 
-          <div className={styles.box}>
-            <img className="rounded-xl" src="/static/images/quem-somos.jpg" />
+          <div className="w-full max-w-[45rem] flex items-center justify-center">
+            <img src="/static/images/quem-somos2.png" />
           </div>
         </div>
       </section>
@@ -95,7 +95,7 @@ export default function QuemSomos() {
       {/* COMPROMISSO */}
       <section className={styles.background}>
         <div className={`${styles.interno} flex-col items-start gap-10`}>
-          <h2 className="text-[56px] font-[800] uppercase">
+          <h2 className="lg:text-[56px] text-[32px] font-[800] uppercase">
             Compromisso com a <span className="text-[#18bd36]">qualidade</span>
           </h2>
 
@@ -123,7 +123,7 @@ export default function QuemSomos() {
       <section className={styles.background}>
         <div className={styles.interno}>
           <div className="w-full max-w-[40rem] flex flex-col gap-5">
-            <h2 className="text-[56px] font-[800] uppercase">
+            <h2 className="lg:text-[56px] text-[32px] font-[800] uppercase">
               Portfólio de <span className="text-[#18bd36]">Soluções</span>
             </h2>
 

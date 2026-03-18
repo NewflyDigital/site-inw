@@ -524,93 +524,148 @@
   gap: 1.5rem;
 }
 
+@media only screen and (max-width: 926px) {
 
-@media only screen and (min-width: 216px) and (max-width: 926px) {
-    .sobreContainer {
-    flex-direction: column;
-    gap: 3rem;
+  .background {
+    padding: 2rem 1rem;
   }
+
+  .interno {
+    flex-direction: column;
+    max-width: 100%;
+    padding: 0 1rem;
+    gap: 2rem;
+  }
+
+  .box {
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* PRODUTOS */
+
+  .produtos {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .cardProduto {
+    max-width: 100%;
+    margin: 1rem 0;
+  }
+
+  .imagem {
+    padding: 2rem 1rem;
+  }
+
+  .cardProduto img {
+    max-width: 14rem;
+  }
+
+  .cardProduto h3 {
+    font-size: 20px;
+  }
+
+  .BotaoProduto {
+    max-width: 12rem;
+  }
+
+  /* IMAGENS INTERNAS */
+
+  .internoImages {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .MoveImage {
+    max-width: 100%;
+    margin-top: 0 !important;
+  }
+
+  /* CATEGORIAS */
+
+  .categorias {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .categorias h4 {
+    font-size: 20px;
+  }
+
+  .Botao2 {
+    max-width: 10rem;
+  }
+
+  /* BREADCRUMB */
+
+  .breadcrumb {
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* SOBRE */
+
+  .sobreContainer {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .sobreTexto {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .sobreTexto h1 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  /* MÉTRICAS */
 
   .metricas {
     flex-direction: column;
     gap: 2rem;
+    text-align: center;
   }
+
+  .metricaBox {
+    align-items: center;
+  }
+
+  .metricaNumero {
+    font-size: 48px;
+  }
+
+  /* OBJETIVOS */
 
   .objetivosGrid {
     grid-template-columns: 1fr;
   }
 
-  .sobreTexto h1 {
-    font-size: 36px;
-    line-height: 40px;
+  /* MISSÃO */
+
+  .missao {
+    max-width: 100%;
+    text-align: center;
   }
 
-  .background {
-    justify-content: center;
-    align-items: center;
+  /* FOOTER */
+
+  .footer {
+    height: auto;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+
+  .boxfooter {
     flex-direction: column;
+    gap: 2rem;
   }
 
-  .background2 {
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 10rem;
-  }
-
-  .interno {
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 35rem;
-  }
-
-  .interno2 {
-    flex-direction: column;
-    justify-content: space-between;
-    max-width: 35rem;
-  }
-
-  .box {
-    width: 100%;
-    max-width: 80rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .sessoes {
-    max-width: 35rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .botao1 {
-    font-size: 19px;
-  }
-
-  .botao2 {
-    font-size: 18px;
-  }
-
-  .estrutura img {
-    max-width: 16.5rem;
-  }
-
-  .atividades {
-    flex-wrap: wrap;
-  }
-
-  .imageletreiro {
-    width: 100%;
-    max-width: 45rem;
-    margin-top: -12rem;
-    position: absolute;
-    right: 8rem;
-  }
-
-  .somosbio {
-    font-size: 42px;
-  }
 }

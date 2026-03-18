@@ -50,16 +50,16 @@ function Rodape() {
               <Link legacyBehavior href="/">
                 <a>Início</a>
               </Link>
-              <Link legacyBehavior href="/">
+              <Link legacyBehavior href="/a-inw">
                 <a>Sobre Nós</a>
               </Link>
-              <Link legacyBehavior href="/">
+              <Link legacyBehavior href="/encontre-um-vendedor">
                 <a>Encontre um Vendedor</a>
               </Link>
-              <Link legacyBehavior href="/">
+              <Link legacyBehavior href="/implementos">
                 <a>Nossos Implementos</a>
               </Link>
-              <Link legacyBehavior href="/">
+              <Link legacyBehavior href="/contato">
                 <a>Contato</a>
               </Link>
             </div>

@@ -62,7 +62,7 @@ export default function EncontreVendedor() {
       <section className={`${styles.background} `}>
         <div className={`${styles.interno} max-w-[80rem] pt-[10rem]`}>
           {/* TEXTO */}
-          <div className="w-full max-w-[40rem] z-[1234] flex flex-col items-start justify-center mt-[2rem]">
+          <div className="w-full max-w-[40rem] z-[1234] flex flex-col lg:text-left lg:items-start items-center justify-center lg:mt-[2rem] mt-[0rem]">
             <h1 className={styles.titulo}>
               Encontre <br /> um vendedor
             </h1>
@@ -88,7 +88,10 @@ export default function EncontreVendedor() {
 
       {/* MAPA */}
       <section className={styles.mapaSection}>
-        <div  ref={mapaRef} className={`${styles.interno} max-w-[90rem] pt-[8rem]`}>
+        <div
+          ref={mapaRef}
+          className={`${styles.interno} max-w-[90rem] pt-[8rem]`}
+        >
           <div className="w-full max-w-[30rem] flex flex-col items-start justify-center">
             <h2 className={styles.tituloMapa}>
               Clique no seu estado ou utilize a busca
@@ -112,7 +115,7 @@ export default function EncontreVendedor() {
             </div>
           </div>
 
-          <div className="w-full max-w-[60rem]  flex flex-col items-start justify-center"></div>
+          <div className="w-full max-w-[60rem] flex flex-col items-start justify-center"></div>
           <MapaBrasil handleOnClick={setUf} />
         </div>
       </section>

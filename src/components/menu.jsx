@@ -100,7 +100,7 @@ function Menu() {
             <h2>
               implementos agrícolas de <i> alta performance</i>
             </h2>
-            <p>Implementos rodoviários de alta performance</p>
+            <p>Implementos agrícolas de alta performance</p>
 
             <div className={styles.divider}></div>
 

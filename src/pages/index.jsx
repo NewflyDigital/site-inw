@@ -266,7 +266,7 @@ export default function Home() {
           <div className="w-full max-w-[45rem] flex flex-col items-end gap-4 justify-center">
             <div className={styles.categorias}>
               <h4>Combate à incêndio</h4>{" "}
-              <Link legacyBehavior href="/contato">
+              <Link legacyBehavior href="/implementos">
                 <a className={styles.Botao2}>
                   leia mais
                   <img
@@ -277,8 +277,8 @@ export default function Home() {
               </Link>
             </div>
             <div className={styles.categorias}>
-              <h4>Combate à incêndio</h4>{" "}
-              <Link legacyBehavior href="/contato">
+              <h4>Controlador de Operações</h4>{" "}
+              <Link legacyBehavior href="/implementos">
                 <a className={styles.Botao2}>
                   leia mais
                   <img
@@ -289,8 +289,20 @@ export default function Home() {
               </Link>
             </div>
             <div className={styles.categorias}>
-              <h4>Combate à incêndio</h4>{" "}
-              <Link legacyBehavior href="/contato">
+              <h4>Linha de Fertilização</h4>{" "}
+              <Link legacyBehavior href="/implementos">
+                <a className={styles.Botao2}>
+                  leia mais
+                  <img
+                    className="w-full max-w-[1rem] ml-2"
+                    src="/static/images/seta-vertical.png"
+                  />
+                </a>
+              </Link>
+            </div>
+            <div className={styles.categorias}>
+              <h4>Manejo de Fertilizantes</h4>{" "}
+              <Link legacyBehavior href="/implementos">
                 <a className={styles.Botao2}>
                   leia mais
                   <img

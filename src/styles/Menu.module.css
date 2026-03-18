@@ -391,7 +391,7 @@
 
     .overlayContent {
       flex-direction: column;
-      padding: 5rem 2rem 2rem 2rem;
+      padding: 2rem 2rem 2rem 2rem;
     }
 
     .verticalDivider {
@@ -425,7 +425,7 @@
 
     .left {
       max-width: 100%;
-      margin-bottom: 2rem;
+      margin-bottom: 0.5rem;
     }
 
     .left h2 {
@@ -442,6 +442,8 @@
     .buttons {
       flex-direction: column;
       width: 100%;
+
+      display: none;
     }
 
     .orcamento,
@@ -452,6 +454,8 @@
 
     .social {
       margin-top: 1.5rem;
+      
+      display: none;
     }
 
     /* coluna direita */

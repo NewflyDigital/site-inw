@@ -31,13 +31,13 @@ export default async function handler(req, res) {
 
   const body = {
     sender: {
-      name: "Site MEC Implementos",
-      email: "contato@mecservicosepecas.com.br",
+      name: "Site INW Soluções Agrícolas",
+      email: "contato@inw.com.br",
     },
     to: [
       {
-      email: "contato@mecservicosepecas.com.br",
-        name: "Site MEC Implementos",
+      email: "contato@inw.com.br",
+        name: "Site INW Soluções Agrícolas",
       },
     ],
     subject: "Contato do Site",
