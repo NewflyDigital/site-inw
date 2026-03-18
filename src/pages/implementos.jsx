@@ -5,14 +5,14 @@ import { useRouter } from "next/router";
 
 import Banner from "../components/banner";
 import Menu from "../components/menu";
-import styles from "../styles/Produtos.module.css";
+import styles from "../styles/Implementos.module.css";
 import Link from "next/link";
 
 import Rodape from "../components/rodape";
 import Whats from "../components/whats";
 import RodapeNewFly from "../components/rodape-newfly";
 
-export default function Produtos() {
+export default function Implementos() {
   const [hovered, setHovered] = useState(null);
 
   const router = useRouter();

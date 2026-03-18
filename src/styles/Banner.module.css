@@ -157,30 +157,71 @@
   */
 
 @media only screen and (min-width: 216px) and (max-width: 926px) {
+  @media only screen and (max-width: 926px) {
+
   .background {
     height: 70vh;
+    padding: 2rem 1.5rem;
   }
 
   .interno {
-    flex-direction: row;
-  }
-
-  .box {
-    max-width: 35rem;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
 
-  .box h4 {
-    text-align: left;
+  .box {
+    max-width: 100%;
+    align-items: flex-start;
+  }
+
+  .box2 {
+    max-width: 100%;
+    align-items: flex-start;
+    margin-top: 1rem;
   }
 
   .box h2 {
-    margin-bottom: 1rem;
+    font-size: 48px;
+    line-height: 46px;
+    max-width: 100%;
   }
+
+  .box h2 i {
+    font-size: 48px;
+  }
+
+  .box2 p {
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 100%;
+  }
+
+  /* BOTÕES */
 
   .box span {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 100%;
   }
+
+  .video {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+
+  .orcamento {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* seta */
+
+  .div_seta_baixo {
+    bottom: 1.5rem;
+  }
+
+}
 }

@@ -95,28 +95,89 @@
 
 /* Responsivo */
 @media (max-width: 768px) {
-  .rodapePrincipal {
-    flex-direction: column;
+  @media (max-width: 768px) {
+
+  .background {
+    padding: 3rem 1.5rem;
   }
 
-  .links {
-    flex-direction: column;
+  .interno {
+    align-items: center;
+    text-align: center;
   }
+
+  /* topo */
+
+  .topo {
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .social {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .social p {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .icones img {
+    width: 22px;
+    margin: 0 6px;
+  }
+
+  /* estrutura principal */
+
+  .rodapePrincipal {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  /* logo */
+
+  .colLogo {
+    min-width: auto;
+    max-width: 28rem;
+  }
+
+  .colLogo .logo {
+    max-width: 160px;
+    margin: 0 auto 1rem auto;
+  }
+
+  .colLogo p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  /* divisor */
 
   .divisor {
     display: none;
   }
 
-  .topo {
-    justify-content: center;
-  }
+  /* links */
 
-  .social {
+  .links {
     flex-direction: column;
     align-items: center;
+    gap: 1.5rem;
   }
 
-  .social p {
-    text-align: center;
+  .coluna {
+    min-width: auto;
   }
+
+  .coluna h4 {
+    margin-bottom: 0.8rem;
+  }
+
+  .coluna a {
+    margin-bottom: 0.4rem;
+  }
+
+}
 }

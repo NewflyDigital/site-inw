@@ -26,52 +26,31 @@ export default function Home() {
   const produtos = [
     {
       id: 1,
-      nome: "TESTE 01",
-      imagem: "/static/images/Produtos/Canudo-1300.png",
-      categoria: "Guindaste Linha Trave",
-      url: "AAA",
+      nome: "Canudo 1300",
+      imagem: "/static/images/Produtos/canudo-1300.png",
+      categoria: "Linha de Fertilização",
+      url: "/canudo-1300",
     },
     {
-      id: 1,
-      nome: "TESTE 02",
-      imagem: "/static/images/Produtos/Canudo-1300.png",
-      categoria: "Guindaste Linha Trave",
-      url: "AAA",
+      id: 2,
+      nome: "Big Tanque",
+      imagem: "/static/images/produtos/categorias-bigtanque.png",
+      categoria: "Manejo de Fertilizantes",
+      url: "/big-tanque",
     },
     {
-      id: 1,
-      nome: "TESTE 03",
-      imagem: "/static/images/Produtos/Canudo-1300.png",
-      categoria: "Guindaste Linha Trave",
-      url: "AAA",
+      id: 3,
+      nome: "Fertilog",
+      imagem: "/static/images/produtos/fertilog.png",
+      categoria: "Manejo de Fertilizantes",
+      url: "/fertilog",
     },
     {
-      id: 1,
-      nome: "TESTE 04",
-      imagem: "/static/images/Produtos/Canudo-1300.png",
-      categoria: "Guindaste Linha Trave",
-      url: "AAA",
-    },
-    {
-      id: 1,
-      nome: "TESTE 05",
-      imagem: "/static/images/Produtos/Canudo-1300.png",
-      categoria: "Guindaste Linha Trave",
-      url: "AAA",
-    },
-    {
-      id: 1,
-      nome: "TESTE 06",
-      imagem: "/static/images/Produtos/Canudo-1300.png",
-      categoria: "Guindaste Linha Trave",
-      url: "AAA",
-    },
-    {
-      id: 1,
-      nome: "TESTE 07",
-      imagem: "/static/images/Produtos/Canudo-1300.png",
-      categoria: "Guindaste Linha Trave",
-      url: "AAA",
+      id: 4,
+      nome: "Fastseed",
+      imagem: "/static/images/produtos/fastseed.png",
+      categoria: "Controlador de Operações",
+      url: "/fastseed",
     },
   ];
 
@@ -194,8 +173,8 @@ export default function Home() {
       </section>
 
       <section className={styles.background}>
-        <div className="w-full h-full flex flex-row items-start justify-center">
-          <div className="w-full max-w-[30rem] mt-3 flex flex-col items-start justify-center">
+        <div className="w-full h-full flex lg:flex-row flex-col items-start justify-center">
+          <div className="w-full lg:max-w-[30rem] flex flex-row lg:flex-col items-center lg:items-start gap-2">
             <a className="text-bold">
               {" "}
               <img
@@ -207,7 +186,7 @@ export default function Home() {
             </a>
           </div>
           <div className="w-full max-w-[50rem] flex flex-col items-start justify-center">
-            <h2 className="w-full font-[800] uppercase leading-[72px] text-[56px]">
+            <h2 className="w-full font-[800] uppercase leading-[42px] lg:leading-[72px] text-[32px] lg:text-[56px]">
               Somos desenvolvedores de&nbsp;
               <a className="text-[#18bd36]">implementos agrícolas</a>
               &nbsp;fortes como o<a className="text-[#18bd36]"> agro</a>
@@ -281,7 +260,7 @@ export default function Home() {
             <img
               className="w-full max-w-[34rem] "
               src="/static/images/Implementos.png"
-              alt="Implementos" 
+              alt="Implementos"
             />
           </div>
           <div className="w-full max-w-[45rem] flex flex-col items-end gap-4 justify-center">

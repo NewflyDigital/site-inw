@@ -69,7 +69,7 @@
   font-family: Inter;
   font-weight: 500;
   font-size: medium;
-  padding: 1.5rem 0rem 1.5rem 0rem; 
+  padding: 1.5rem 0rem 1.5rem 0rem;
   cursor: pointer;
   transition: 0.5s ease-in;
   border-bottom: 7px solid transparent;
@@ -114,7 +114,7 @@
 .hamburger span {
   height: 3px;
   width: 100%;
-  background:  #000000;
+  background: #000000;
   transition: 0.4s;
 }
 
@@ -161,7 +161,7 @@
 .left h2 {
   font-size: 48px;
   font-weight: 1000;
-  line-height:54px;
+  line-height: 54px;
   text-transform: uppercase;
 }
 
@@ -273,7 +273,6 @@
   transform: scale(1.2);
 }
 
-
 .right {
   width: 100%;
   max-width: 40rem;
@@ -350,7 +349,7 @@
   bottom: 2rem;
   right: 2rem;
   width: 18px;
-  transition: 0.3s;  
+  transition: 0.3s;
 }
 
 .menuItem:hover .card img {
@@ -359,107 +358,124 @@
 
 /* @media Menu Mobile*/
 @media only screen and (max-width: 926px) {
-  
-.logo {
-  width: 6rem;
-  height: 3rem;
-}
+  @media only screen and (max-width: 926px) {
+    .header {
+      padding: 0.5rem 1rem;
+    }
 
+    .interno {
+      max-width: 100%;
+      padding: 0 1rem;
+    }
 
-.contato {
-  display: none;
-} 
-#botao {
-  display: none;
-}
+    .logo {
+      height: 3rem;
+      max-width: 8rem;
+    }
 
-  .interno {
-    width: 100%;
-    max-width: 35rem;
-    justify-content: space-between;
-    padding: 0.5rem 0rem;
+    .logo img {
+      max-width: 7rem;
+    }
+
+    /* esconder menu desktop */
+    .menu {
+      display: none;
+    }
+
+    /* mostrar botão hamburger */
+    .hamburger {
+      display: flex;
+    }
+
+    /* overlay mobile */
+
+    .overlayContent {
+      flex-direction: column;
+      padding: 5rem 2rem 2rem 2rem;
+    }
+
+    .verticalDivider {
+      display: none;
+    }
+    .overlayMenu {
+      position: fixed;
+      inset: 0;
+      background: #ffffff;
+      color: #000000;
+
+      transform: translateY(-100%);
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+
+      transition:
+        transform 0.6s ease,
+        opacity 0.4s ease;
+
+      z-index: 9999;
+    }
+
+    .overlayMenu.show {
+      transform: translateY(0);
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+    /* coluna esquerda */
+
+    .left {
+      max-width: 100%;
+      margin-bottom: 2rem;
+    }
+
+    .left h2 {
+      font-size: 32px;
+      line-height: 36px;
+    }
+
+    .left h2 i {
+      font-size: 32px;
+    }
+
+    /* botões */
+
+    .buttons {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .orcamento,
+    .contato {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .social {
+      margin-top: 1.5rem;
+    }
+
+    /* coluna direita */
+
+    .right {
+      max-width: 100%;
+    }
+
+    .card {
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .card h4 {
+      font-size: 18px;
+    }
+
+    .card p {
+      font-size: 14px;
+    }
+
+    .menuItem .card img {
+      bottom: 1rem;
+      right: 1rem;
+    }
   }
-
-  .menu {
-    color: #fffefed7;
-    display: block;
-    position: absolute;
-    width: 100%;
-    top: 65px;
-    right: 0px;
-    background: #3d3d3d;
-    transition: 0.6s;
-    height: 0px;
-    visibility: hidden;
-    overflow-y: hidden;
-  }
-
-  #nav.active {
-    height: calc(100vh - 65px);
-    visibility: visible;
-    overflow-y: auto;
-  }
-
-
-  #btn_mobile {
-    display: flex;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    border: none;
-    background: none;
-    cursor: pointer;
-    gap: 0.5rem;
-  }
-
-  #hamburguer {
-    color: #fff;
-    border-top: 2px solid;
-    width: 20px;
-    z-index: 123456789;
-  }
-
-  #hamburguer::after,
-  #hamburguer::before {
-    content: '';
-    display: block;
-    width: 20px;
-    height: 2px;
-    margin-top: 5px;
-    color: #fff;
-    transition: 0.3s;
-    position: relative;
-    background: #fff;
-  }
-
-  #nav.active #hamburguer {
-    border-top-color: transparent;
-  }
-
-  #nav.active #hamburguer::before {
-    transform: rotate(135deg);
-  }
-
-  #nav.active #hamburguer::after {
-    transform: rotate(-135deg);
-    top: -7px;
-  }
-
-  .logo {
-    height: 3rem;
-    margin-left: 2rem;
-  }
-
-  .navbar {
-    margin-top: 0rem;
-  }
-
-  .navbar li {
-    margin-top: 0rem;
-    margin-left: 3rem;
-    line-height: 0.4rem;
-    border-bottom: 0.5rem transparent solid;
-  }
-
-
-
 }

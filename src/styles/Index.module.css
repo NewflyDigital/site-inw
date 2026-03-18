@@ -371,73 +371,112 @@
 
 /*FIM Categorias*/
 
-@media only screen and (min-width: 216px) and (max-width: 926px) {
+@media only screen and (max-width: 926px) {
+
   .background {
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    padding: 2rem 1.5rem;
   }
 
-  .background2 {
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 10rem;
-  }
+  /* containers */
 
   .interno {
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 35rem;
-  }
-
-  .interno2 {
     flex-direction: column;
-    justify-content: space-between;
-    max-width: 35rem;
+    max-width: 100%;
+    gap: 2rem;
   }
 
   .box {
-    width: 100%;
-    max-width: 80rem;
-    display: flex;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .boxSessao {
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* PRODUTOS */
+
+  .produtos {
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .cardProduto {
+    max-width: 20rem;
+    margin: 0;
+  }
+
+  .imagem {
+    padding: 3rem 1.5rem;
+  }
+
+  .cardProduto h3 {
+    font-size: 20px;
+  }
+
+  /* BOTÕES */
+
+  .Botao,
+  .BotaoProduto {
+    max-width: 100%;
+  }
+
+  /* IMAGENS CASCATA */
+
+.internoImages {
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.MoveImage {
+  max-width: 90%;
+}
+
+
+.MoveImage:nth-child(2) {
+  margin-top: -13rem;
+}
+
+.MoveImage:nth-child(1) {
+  margin-top: 16rem;
+}
+.MoveImage:nth-child(3) {
+  margin-top: -13rem;
+}
+  
+
+  /* CATEGORIAS */
+
+  .categorias {
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.5rem;
   }
 
-  .sessoes {
-    max-width: 35rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  .categorias h4 {
+    font-size: 20px;
   }
 
-  .botao1 {
-    font-size: 19px;
+  .Botao2 {
+    max-width: 100%;
   }
 
-  .botao2 {
-    font-size: 18px;
+  /* FOOTER */
+
+  .footer {
+    height: auto;
+    padding: 3rem 1.5rem;
+    text-align: center;
   }
 
-  .estrutura img {
-    max-width: 16.5rem;
+  .boxfooter {
+    flex-direction: column;
+    gap: 2rem;
   }
 
-  .atividades {
-    flex-wrap: wrap;
-  }
-
-  .imageletreiro {
-    width: 100%;
-    max-width: 45rem;
-    margin-top: -12rem;
-    position: absolute;
-    right: 8rem;
-  }
-
-  .somosbio {
-    font-size: 42px;
-  }
 }
