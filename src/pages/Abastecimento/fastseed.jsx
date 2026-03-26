@@ -1,9 +1,9 @@
-import styles from "../styles/Produto.module.css";
+import styles from "../../styles/Produto.module.css";
 import { useState } from "react";
-import Menu from "../components/menu";
-import Rodape from "../components/rodape";
-import RodapeNewFly from "../components/rodape-newfly";
-import Whats from "../components/whats";
+import Menu from "../../components/menu";
+import Rodape from "../../components/rodape";
+import RodapeNewFly from "../../components/rodape-newfly";
+import Whats from "../../components/whats";
 import Link from "next/link";
 
 export default function FastSeed() {
@@ -117,7 +117,7 @@ export default function FastSeed() {
           <div>
             <p>Baixar catálogo</p>
 
-            <Link legacyBehavior href="/static/docs/fast-seed.pdf">
+            <Link legacyBehavior href="https://INWSOLUCOES.short.gy/SEMENTES_INW">
               <a target="_blank">
                 <img src="/static/images/download.png" />
               </a>
@@ -178,9 +178,7 @@ export default function FastSeed() {
       <section className={styles.footer}>
         <div className={styles.interno}>
           <div className={styles.box3}>
-            <h2 className={styles.titulo3}>
-              Soluções para grandes empreendimentos agrícolas
-            </h2>
+          <h2> Somos o pit stop do Agro</h2>
           </div>
 
           <div className={styles.box2}>

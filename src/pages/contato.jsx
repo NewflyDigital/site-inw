@@ -18,7 +18,7 @@ import Backdrop from "@mui/material/Backdrop";
 import CircularProgress from "@mui/material/CircularProgress";
 import Menu from "../components/menu";
 import Rodape from "../components/rodape";
- 
+
 import CssBaseline from "@mui/material/CssBaseline";
 import Whats from "../components/whats";
 import Link from "next/link";
@@ -104,7 +104,7 @@ export default function Modal() {
           message: "Enviado com sucesso",
         });
       })
-      .catch(e => {
+      .catch((e) => {
         setAlert({
           show: true,
           severity: "error",
@@ -123,7 +123,7 @@ export default function Modal() {
         <CssBaseline />
         <Menu />
         <Backdrop
-          sx={{ color: "#fff", zIndex: theme => theme.zIndex.drawer + 1 }}
+          sx={{ color: "#fff", zIndex: (theme) => theme.zIndex.drawer + 1 }}
           open={loading}
         >
           <CircularProgress color="inherit" />
@@ -137,7 +137,9 @@ export default function Modal() {
         </section>
 
         <section className={styles.background}>
-          <div className={styles.barra}>Transformamos PROJETOS em REALIDADE.</div>
+          <div className={styles.barra}>
+            Transformamos PROJETOS em REALIDADE.
+          </div>
         </section>
 
         <section style={{ paddingTop: "5rem" }} className={styles.background}>
@@ -167,7 +169,9 @@ export default function Modal() {
                     <TextField
                       id="email"
                       label="Email"
-                      {...register("email", { required: "E-mail é obrigatório" })}
+                      {...register("email", {
+                        required: "E-mail é obrigatório",
+                      })}
                       error={!!errors.email}
                       helperText={errors.email?.message}
                       fullWidth
@@ -179,7 +183,9 @@ export default function Modal() {
                     <TextField
                       id="telefone"
                       label="Telefone"
-                      {...register("telefone", { required: "Telefone é obrigatório" })}
+                      {...register("telefone", {
+                        required: "Telefone é obrigatório",
+                      })}
                       error={!!errors.telefone}
                       helperText={errors.telefone?.message}
                       fullWidth
@@ -191,7 +197,9 @@ export default function Modal() {
                     <TextField
                       id="empresa"
                       label="Empresa"
-                      {...register("empresa", { required: "Empresa é obrigatório" })}
+                      {...register("empresa", {
+                        required: "Empresa é obrigatório",
+                      })}
                       error={!!errors.empresa}
                       helperText={errors.empresa?.message}
                       fullWidth
@@ -206,7 +214,9 @@ export default function Modal() {
                     <TextField
                       id="mensagem"
                       label="Mensagem"
-                      {...register("mensagem", { required: "Mensagem é obrigatório" })}
+                      {...register("mensagem", {
+                        required: "Mensagem é obrigatório",
+                      })}
                       error={!!errors.mensagem}
                       helperText={errors.mensagem?.message}
                       fullWidth
@@ -234,20 +244,24 @@ export default function Modal() {
             </div>
           </div>
         </section>
-        <section className={styles.background} style={{ paddingTop: "8rem", paddingBottom: "0rem" }}>
-        
-        </section>
+        <section
+          className={styles.background}
+          style={{ paddingTop: "8rem", paddingBottom: "0rem" }}
+        ></section>
         <section className={styles.footer}>
           <div className={styles.interno}>
             <div className={styles.box3}>
-              <h2 className={styles.titulo3}>Soluções em Implementos</h2>
+              <h2> Somos o pit stop do Agro</h2>
             </div>
             <div className={styles.box2}>
-             <Link legacyBehavior href="https://api.whatsapp.com/send?phone=5527998634303&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20MEC%20Implementos">
-              <a target="_blank"  className={styles.botaofooter}>
-               Fale Conosco
-              </a>
-             </Link>
+              <Link
+                legacyBehavior
+                href="https://api.whatsapp.com/send?phone=5527998634303&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20MEC%20Implementos"
+              >
+                <a target="_blank" className={styles.botaofooter}>
+                  Fale Conosco
+                </a>
+              </Link>
             </div>
           </div>
         </section>

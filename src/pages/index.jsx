@@ -61,9 +61,9 @@ export default function Home() {
     offset: ["start end", "end start"],
   });
 
-  const y1 = useTransform(scrollYProgress, [0, 1], [-120, 120]);
+  const y1 = useTransform(scrollYProgress, [0, 1], [-20, 560]);
   const y2 = useTransform(scrollYProgress, [0, 1], [120, -120]);
-  const y3 = useTransform(scrollYProgress, [0, 1], [-80, 80]);
+  const y3 = useTransform(scrollYProgress, [0, 1], [-60, 420]);
 
   return (
     <>
@@ -223,7 +223,7 @@ export default function Home() {
 
       <section className={styles.footer}>
         <div className={styles.boxfooter}>
-          <h2>Soluções em Implementos</h2>
+          <h2> Somos o pit stop do Agro</h2>
           <Link legacyBehavior href="/contato">
             <a className={styles.botaofooter}>Fale Conosco</a>
           </Link>
@@ -265,22 +265,10 @@ export default function Home() {
           </div>
           <div className="w-full max-w-[45rem] flex flex-col items-end gap-4 justify-center">
             <div className={styles.categorias}>
-              <h4>Combate à incêndio</h4>{" "}
+              <h4>Água e Calda</h4>{" "}
               <Link legacyBehavior href="/implementos">
                 <a className={styles.Botao2}>
-                  leia mais
-                  <img
-                    className="w-full max-w-[1rem] ml-2"
-                    src="/static/images/seta-vertical.png"
-                  />
-                </a>
-              </Link>
-            </div>
-            <div className={styles.categorias}>
-              <h4>Controlador de Operações</h4>{" "}
-              <Link legacyBehavior href="/implementos">
-                <a className={styles.Botao2}>
-                  leia mais
+                  Implementos
                   <img
                     className="w-full max-w-[1rem] ml-2"
                     src="/static/images/seta-vertical.png"
@@ -292,7 +280,7 @@ export default function Home() {
               <h4>Linha de Fertilização</h4>{" "}
               <Link legacyBehavior href="/implementos">
                 <a className={styles.Botao2}>
-                  leia mais
+                  Implementos
                   <img
                     className="w-full max-w-[1rem] ml-2"
                     src="/static/images/seta-vertical.png"
@@ -301,10 +289,22 @@ export default function Home() {
               </Link>
             </div>
             <div className={styles.categorias}>
-              <h4>Manejo de Fertilizantes</h4>{" "}
+              <h4>Movimentação de Solo</h4>{" "}
               <Link legacyBehavior href="/implementos">
                 <a className={styles.Botao2}>
-                  leia mais
+                  Implementos
+                  <img
+                    className="w-full max-w-[1rem] ml-2"
+                    src="/static/images/seta-vertical.png"
+                  />
+                </a>
+              </Link>
+            </div>
+            <div className={styles.categorias}>
+              <h4>Abastecimento de Sementes</h4>{" "}
+              <Link legacyBehavior href="/implementos">
+                <a className={styles.Botao2}>
+                  Implementos
                   <img
                     className="w-full max-w-[1rem] ml-2"
                     src="/static/images/seta-vertical.png"

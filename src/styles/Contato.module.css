@@ -48,16 +48,30 @@
 }
 
 .botaofooter {
-  background-color: #18bd36;
-  color: #fff;
-  padding: 0.75rem 3rem;
-  text-decoration: none;
-  border-radius: 8px;
+  margin-top: 22px;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 18rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
   transition: background 0.3s ease;
+  border-radius: 24px;
+  border: 1px solid #18bd36;
+  color: #ffffff;
+  background-color: #18bd36;
 }
 
 .botaofooter:hover {
-  background-color: #128126;
+  background-color: #ffffff;
+  color: #18bd36;
+  border: 1px solid #ffffff;
+  transition: background 0.3s ease;
 }
 
 .background {

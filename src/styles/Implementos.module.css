@@ -76,7 +76,7 @@
 .card {
   flex: 1;
   height: 180px;
-  width: 25rem;
+  width: 21rem;
   position: relative;
   display: flex;
   font-size: 32px;
@@ -85,7 +85,7 @@
   text-transform: uppercase;
   padding: 2rem;
   border-radius: 1rem;
-  margin: 0rem 0.8rem;
+  margin: 0rem 0.5rem;
   cursor: pointer;
 
   overflow: hidden;
@@ -354,6 +354,7 @@
   align-items: center;
 }
 
+
 .botaofooter {
   margin-top: 22px;
   margin-bottom: 15px;
@@ -370,20 +371,17 @@
   transition: background 0.3s ease;
   border-radius: 24px;
   border: 1px solid #18bd36;
-  color: #18bd36;
-  background-color: transparent;
+  color: #ffffff;
+  background-color: #18bd36;
 }
 
 .botaofooter:hover {
-  background-color: #18bd36;
-  color: #fff;
-  border-color: 2px solid #18bd36;
+  background-color: #ffffff;
+  color: #18bd36;
+  border: 1px solid #ffffff;
   transition: background 0.3s ease;
 }
 
-.botaofooter:hover {
-  background-color: #128126;
-}
 @media only screen and (max-width: 926px) {
 
   .backgroundimg {

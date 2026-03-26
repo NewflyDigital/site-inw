@@ -31,49 +31,62 @@ export default function Implementos() {
       nome: "Canudo 1300",
       imagem: "/static/images/Produtos/canudo-1300.png",
       categoria: "Linha de Fertilização",
-      url: "/canudo-1300",
+      url: "/Fertilizantes/canudo-1300",
     },
     {
       id: 2,
       nome: "Big Tanque",
       imagem: "/static/images/produtos/categorias-bigtanque.png",
-      categoria: "Manejo de Fertilizantes",
-      url: "/big-tanque",
+      categoria: "Água e Calda",
+      url: "/AguaCalda/big-tanque",
     },
     {
       id: 3,
       nome: "Fertilog",
       imagem: "/static/images/produtos/fertilog.png",
-      categoria: "Manejo de Fertilizantes",
-      url: "/fertilog",
+      categoria: "Linha de Fertilização",
+      url: "/Fertilizantes/fertilog",
     },
     {
       id: 4,
       nome: "Fastseed",
       imagem: "/static/images/produtos/fastseed.png",
-      categoria: "Controlador de Operações",
-      url: "/fastseed",
+      categoria: "Abastecimento de Sementes",
+      url: "/Abastecimento/fastseed",
+    },
+    {
+      id: 5,
+      nome: "Plain INW",
+      imagem: "/static/images/produtos/PlainINW.png",
+      categoria: "Movimentação de Solo",
+      url: "/Movimentacao/plain-inw",
     },
   ];
 
   const categorias = [
     {
+      nome: "Água e Calda",
+      categoria: "Água e Calda",
+      cor: "cardVermelho",
+      imagem: "/static/images/produtos/categorias-bigtanque.png",
+    },
+    {
       nome: "Linha de Fertilização",
       categoria: "Linha de Fertilização",
       cor: "cardCinza",
-      imagem: "/static/images/produtos/categoria-canudo.png",
+      imagem: "/static/images/produtos/fertilog.png",
     },
     {
-      nome: "Manejo de Fertilizantes",
-      categoria: "Manejo de Fertilizantes",
-      cor: "cardAzul",
-      imagem: "/static/images/produtos/categorias-bigtanque.png",
-    },
-    {
-      nome: "Controlador de Operações",
-      categoria: "Controlador de Operações",
+      nome: "Movimentação de Solo",
+      categoria: "Movimentação de Solo",
       cor: "cardVermelho",
-      imagem: "/static/images/produtos/categorias-bigtanque.png",
+      imagem: "/static/images/produtos/PlainINW.png",
+    },
+    {
+      nome: "Abastecimento de Sementes",
+      categoria: "Abastecimento de Sementes",
+      cor: "cardAzul",
+      imagem: "/static/images/produtos/Fastseed.png",
     },
   ];
 
@@ -165,7 +178,7 @@ export default function Implementos() {
       </section>
       <section className={styles.footer}>
         <div className={styles.boxfooter}>
-          <h2>Soluções em Implementos</h2>
+          <h2> Somos o pit stop do Agro</h2>
           <Link legacyBehavior href="/contato">
             <a className={styles.botaofooter}>Fale Conosco</a>
           </Link>

@@ -116,7 +116,6 @@
 .mapaSection {
   margin-top: 4rem;
   width: 100%;
-  max-width: 100rem;
   padding-top: 4rem;
   padding-bottom: 4rem;
   display: flex;
@@ -158,6 +157,9 @@
 }
 
 .cardRepresentante {
+  width: 100%;
+  max-width: 25rem;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -167,7 +169,6 @@
   border-radius: 1rem;
 
   padding: 2rem 1.5rem;
-  max-width: 20rem;
 
   background: transparent;
 

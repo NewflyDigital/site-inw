@@ -1,9 +1,9 @@
-import styles from "../styles/Produto.module.css";
+import styles from "../../styles/Produto.module.css";
 import { useState } from "react";
-import Menu from "../components/menu";
-import Rodape from "../components/rodape";
-import RodapeNewFly from "../components/rodape-newfly";
-import Whats from "../components/whats";
+import Menu from "../../components/menu";
+import Rodape from "../../components/rodape";
+import RodapeNewFly from "../../components/rodape-newfly";
+import Whats from "../../components/whats";
 import Link from "next/link";
 
 export default function Fertilog() {
@@ -26,7 +26,7 @@ export default function Fertilog() {
         <div className={styles.interno2}>
           <img
             className={styles.produto}
-            src="/static/images/produtos/fertilog.png"
+            src="/static/images/produtos/MovimentacaoDeSolo/PlainINW.png"
           />
         </div>
       </section>
@@ -62,7 +62,7 @@ export default function Fertilog() {
           <div className={styles.box}>
             <img
               className={styles.produtosleft}
-              src="/static/images/produtos/Fertilog/fertilog-01.png"
+            src="/static/images/produtos/MovimentacaoDeSolo/Plain-INW.jpg"
             />
           </div>
         </div>
@@ -74,7 +74,7 @@ export default function Fertilog() {
           <div className={styles.box}>
             <img
               className={styles.produtosright}
-              src="/static/images/produtos/Fertilog/fertilog-02.png"
+            src="/static/images/produtos/MovimentacaoDeSolo/Plain-INW.jpg"
             />
           </div>
 
@@ -116,7 +116,7 @@ export default function Fertilog() {
           <div>
             <p>Baixar catálogo</p>
 
-            <Link legacyBehavior href="/static/docs/fertilog.pdf">
+            <Link legacyBehavior href="https://INWSOLUCOES.short.gy/SOLO_INW">
               <a target="_blank">
                 <img src="/static/images/download.png" />
               </a>

@@ -364,19 +364,15 @@
   transition: background 0.3s ease;
   border-radius: 24px;
   border: 1px solid #18bd36;
-  color: #18bd36;
-  background-color: transparent;
-}
-
-.botaofooter:hover {
+  color: #ffffff;
   background-color: #18bd36;
-  color: #fff;
-  border-color: 2px solid #18bd36;
-  transition: background 0.3s ease;
 }
 
 .botaofooter:hover {
-  background-color: #128126;
+  background-color: #ffffff;
+  color: #18bd36;
+  border: 1px solid #ffffff;
+  transition: background 0.3s ease;
 }
 
 @media only screen and (max-width: 926px) {
