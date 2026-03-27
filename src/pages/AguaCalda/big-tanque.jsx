@@ -17,7 +17,7 @@ export default function BigTanque() {
       <section className={styles.backgroundimg}>
         <div className={styles.box}>
           <span>Excelência em Armazenamento</span>
-          <h2>BIG TANQUE</h2>
+          <h2>BIG TANQUE </h2>
         </div>
       </section>
 

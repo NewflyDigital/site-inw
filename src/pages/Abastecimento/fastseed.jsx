@@ -63,7 +63,7 @@ export default function FastSeed() {
           <div className={styles.box}>
             <img
               className={styles.produtosleft}
-              src="/static/images/produtos/fastseed/fastseed-01.png"
+              src="/static/images/produtos/AbastecimentoDeSementes/fastseed-01.png"
             />
           </div>
         </div>
@@ -75,7 +75,7 @@ export default function FastSeed() {
           <div className={styles.box}>
             <img
               className={styles.produtosright}
-              src="/static/images/produtos/fastseed/fastseed-02.png"
+              src="/static/images/produtos/AbastecimentoDeSementes/fastseed-02.png"
             />
           </div>
 
@@ -166,8 +166,8 @@ export default function FastSeed() {
               className={styles.descricao}
               src={
                 activeTab === "descricao"
-                  ? "/static/images/produtos/fastseed/fastseed-03.png"
-                  : "/static/images/produtos/fastseed/fastseed-02.png"
+                  ? "/static/images/produtos/AbastecimentoDeSementes/fastseed-03.png"
+                  : "/static/images/produtos/AbastecimentoDeSementes/fastseed-02.png"
               }
             />
           </div>

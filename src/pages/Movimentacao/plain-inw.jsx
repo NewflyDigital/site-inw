@@ -17,7 +17,7 @@ export default function Fertilog() {
       <section className={styles.backgroundimg}>
         <div className={styles.box}>
           <span>Logística Agrícola Avançada</span>
-          <h2>FERTILOG</h2>
+          <h2>Plain INW 3650 / 4260</h2>
         </div>
       </section>
 
@@ -35,17 +35,22 @@ export default function Fertilog() {
       <section className={styles.background}>
         <div className={styles.interno}>
           <div className={styles.box3}>
-            <h2 className={styles.titulo}>O FERTILOG</h2>
+            <h2 className={styles.titulo}>Plain INW 3650 / 4260</h2>
 
             <p className={styles.paragrafo}>
-              O Fertilog representa uma tecnologia avançada em sistemas de
-              abastecimento de fertilizantes, eliminando a necessidade de
-              basculamento do Roll On Roll Off.
+              A Plain INW 3650 e 4260 é uma plaina traseira de arrasto
+              desenvolvida para operações de movimentação e nivelamento de solo
+              com alta precisão e robustez. Projetada para atender as exigências
+              do campo, o equipamento oferece grande capacidade de trabalho e
+              controle total da operação.
             </p>
 
             <p className={styles.paragrafo}>
-              Seu sistema duplo de armazenamento proporciona maior capacidade
-              e eficiência logística para operações agrícolas de grande escala.
+              Com chassi longo e reforçado, sistema de movimentação triplo
+              hidráulico e lâmina com design côncavo, a Plain INW permite
+              regulagens precisas de giro, inclinação e altura da lâmina,
+              garantindo eficiência em serviços de terraplanagem, nivelamento de
+              estradas rurais e manutenção de áreas agrícolas.
             </p>
 
             <Link legacyBehavior href="/contato">
@@ -62,7 +67,7 @@ export default function Fertilog() {
           <div className={styles.box}>
             <img
               className={styles.produtosleft}
-            src="/static/images/produtos/MovimentacaoDeSolo/Plain-INW.jpg"
+              src="/static/images/produtos/MovimentacaoDeSolo/Plain-INW.jpg"
             />
           </div>
         </div>
@@ -74,7 +79,7 @@ export default function Fertilog() {
           <div className={styles.box}>
             <img
               className={styles.produtosright}
-            src="/static/images/produtos/MovimentacaoDeSolo/Plain-INW.jpg"
+              src="/static/images/produtos/MovimentacaoDeSolo/Plain-INW.jpg"
             />
           </div>
 
@@ -82,27 +87,34 @@ export default function Fertilog() {
             <h2 className={styles.titulo}>Principais Características</h2>
 
             <p className={styles.paragrafo}>
-              • Capacidade para <strong>16 big bags</strong>
+              • Lâmina com <strong>design côncavo de alta eficiência</strong>
             </p>
-
             <p className={styles.paragrafo}>
-              • Volume total de <strong>10.500 litros</strong>
+              • Largura da lâmina de <strong>3650 mm ou 4260 mm</strong>
             </p>
-
             <p className={styles.paragrafo}>
-              • Capacidade de carga de <strong>11.500 kg</strong>
+              • <strong>94° de giro da lâmina</strong>
             </p>
-
             <p className={styles.paragrafo}>
-              • Vazão de até <strong>800 kg/min</strong>
+              • Até <strong>40° de inclinação lateral</strong>
             </p>
-
             <p className={styles.paragrafo}>
-              • Tubo telescópico triplo de longo alcance
+              • Sistema de movimento triplo hidráulico
             </p>
-
             <p className={styles.paragrafo}>
-              • Sistema automatizado de transferência
+              • Navalhas tipo patrola para maior desempenho
+            </p>
+            <p className={styles.paragrafo}>
+              • Rodado com pneus 12.4/24
+            </p>
+            <p className={styles.paragrafo}>
+              • Chassi longo e robusto para maior estabilidade 
+            </p>
+            <p className={styles.paragrafo}>
+              • Engate tipo rótula com regulagem de altura 
+            </p>
+            <p className={styles.paragrafo}>
+              • Sistema de acionamento hidráulico duplo 
             </p>
           </div>
         </div>
@@ -155,8 +167,8 @@ export default function Fertilog() {
 
             <p className={styles.paragrafo}>
               {activeTab === "descricao"
-                ? "O Fertilog foi desenvolvido para otimizar a logística agrícola, proporcionando maior capacidade de armazenamento e eficiência no abastecimento de fertilizantes."
-                : "Com maior capacidade e tecnologia de transferência automatizada, o sistema reduz o tempo de operação e aumenta a produtividade no campo."}
+                ? "A Plain INW foi projetada para oferecer alto desempenho em trabalhos de movimentação e nivelamento de solo. Seu sistema hidráulico permite ajustes precisos de giro e inclinação da lâmina, proporcionando maior controle e eficiência nas operações. A estrutura robusta e o chassi reforçado garantem durabilidade e estabilidade durante o trabalho, mesmo em condições exigentes do campo."
+                : "A Plain INW proporciona maior produtividade nas operações de nivelamento e manutenção de estradas rurais, permitindo ajustes rápidos e precisos diretamente da cabine do operador. Com seu sistema hidráulico completo e estrutura reforçada, o equipamento oferece mais segurança, eficiência e durabilidade, tornando-se uma solução confiável para movimentação de solo em propriedades agrícolas e obras rurais."}
             </p>
           </div>
 
@@ -165,8 +177,8 @@ export default function Fertilog() {
               className={styles.descricao}
               src={
                 activeTab === "descricao"
-                  ? "/static/images/produtos/Fertilog/fertilog-03.png"
-                  : "/static/images/produtos/Fertilog/fertilog-04.png"
+                  ? "/static/images/produtos/MovimentacaoDeSolo/plain-inw.jpg"
+                  : "/static/images/produtos/MovimentacaoDeSolo/plain-inw-01.jpg"
               }
             />
           </div>
@@ -178,7 +190,7 @@ export default function Fertilog() {
         <div className={styles.interno}>
           <div className={styles.box3}>
             <h2 className={styles.titulo3}>
-              Soluções para grandes empreendimentos agrícolas
+              Somos o pit stop do Agro
             </h2>
           </div>
 

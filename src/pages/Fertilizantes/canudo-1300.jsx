@@ -27,7 +27,7 @@ export default function Canudo1300() {
         <div className={styles.interno2}>
           <img
             className={styles.produto}
-            src="/static/images/produtos/canudo-1300.png"
+            src="/static/images/produtos/LinhaDeFertilizantes/Canudo-1300-00.png"
           />
         </div>
       </section>
@@ -66,7 +66,7 @@ export default function Canudo1300() {
           <div className={styles.box}>
             <img
               className={styles.produtosleft}
-              src="/static/images/Produtos/Canudo-1300/Canudo-01.jpeg"
+              src="/static/images/Produtos/LinhaDeFertilizantes/Canudo-1300-01.jpg"
             />
           </div>
         </div>
@@ -78,7 +78,7 @@ export default function Canudo1300() {
           <div className={styles.box}>
             <img
               className={styles.produtosright}
-              src="/static/images/Produtos/Canudo-1300/Canudo-02.jpeg"
+              src="/static/images/Produtos/LinhaDeFertilizantes/Canudo-1300-02.jpg"
             />
           </div>
 
@@ -173,8 +173,8 @@ export default function Canudo1300() {
               className={styles.descricao}
               src={
                 activeTab === "descricao"
-                  ? "/static/images/Produtos/Canudo-1300/Canudo-01.jpeg"
-                  : "/static/images/Produtos/Canudo-1300/Canudo-02.jpeg"
+                  ? "/static/images/Produtos/LinhaDeFertilizantes/Canudo-1300-03.jpg"
+                  : "/static/images/Produtos/LinhaDeFertilizantes/Canudo-1300-01.jpg"
               }
             />
           </div>

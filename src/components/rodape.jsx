@@ -100,11 +100,11 @@ function Rodape() {
               <p className="mt-5 text-[15px] leading-[22px]">
                 <b className="text-[18px]">Fale Conosco:</b>
                 <br />
-                (54) 9 9139-1183
+                (54) 9 9139-1183 - Comercial
                 <br />
-                (54) 3338-1010
+                (54) 3338-1010 - Fábrica
                 <br />
-                (54) 3338-1418
+                (54) 3338-1418 - Fábrica
               </p>
             </div>
           </div>

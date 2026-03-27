@@ -28,39 +28,128 @@ export default function Implementos() {
   const produtos = [
     {
       id: 1,
-      nome: "Canudo 1300",
-      imagem: "/static/images/Produtos/canudo-1300.png",
-      categoria: "Linha de Fertilização",
-      url: "/Fertilizantes/canudo-1300",
-    },
-    {
-      id: 2,
-      nome: "Big Tanque",
-      imagem: "/static/images/produtos/categorias-bigtanque.png",
-      categoria: "Água e Calda",
-      url: "/AguaCalda/big-tanque",
-    },
-    {
-      id: 3,
-      nome: "Fertilog",
-      imagem: "/static/images/produtos/fertilog.png",
-      categoria: "Linha de Fertilização",
-      url: "/Fertilizantes/fertilog",
-    },
-    {
-      id: 4,
-      nome: "Fastseed",
-      imagem: "/static/images/produtos/fastseed.png",
-      categoria: "Abastecimento de Sementes",
-      url: "/Abastecimento/fastseed",
-    },
-    {
-      id: 5,
       nome: "Plain INW",
       imagem: "/static/images/produtos/PlainINW.png",
       categoria: "Movimentação de Solo",
       url: "/Movimentacao/plain-inw",
     },
+    {
+      id: 2,
+      nome: "Fastseed",
+      imagem: "/static/images/produtos/AbastecimentoDeSementes/Fastseed-00.png",
+      categoria: "Abastecimento de Sementes",
+      url: "/Abastecimento/fastseed",
+    },
+    {
+      id: 3,
+      nome: "Beluga",
+      imagem: "/static/images/produtos/AbastecimentoDeSementes/beluga-00.png",
+      categoria: "Abastecimento de Sementes",
+      url: "/Abastecimento/beluga",
+    },
+    
+
+    {
+    id: 4,
+    nome: "Caçamba Fertilog",
+    imagem: "/static/images/Produtos/LinhaDeFertilizantes/Cacamba-Fertilog-00.jpg",
+    categoria: "Linha de Fertilização",
+    url: "/Fertilizantes/cacamba-fertilog",
+  },
+  {
+    id: 5,
+    nome: "Canudão 3000",
+    imagem: "/static/images/Produtos/LinhaDeFertilizantes/Canudao-3000-00.jpg",
+    categoria: "Linha de Fertilização",
+    url: "/Fertilizantes/canudao-3000",
+  },
+  {
+    id: 6,
+      nome: "Canudo 1300",
+      imagem: "/static/images/Produtos/LinhaDeFertilizantes/canudo-1300-00.png",
+      categoria: "Linha de Fertilização",
+      url: "/Fertilizantes/canudo-1300",
+  },
+  {
+    id: 7,
+      nome: "Fertilog 15.0 / 1500",
+      imagem: "/static/images/Produtos/LinhaDeFertilizantes/Fertilog 15.0-1500-00.png",
+      categoria: "Linha de Fertilização",
+      url: "/Fertilizantes/fertilog-15",
+  },
+  {
+    id: 8,
+    nome: "Fertilog 7.5 Rebocado",
+    imagem: "/static/images/Produtos/LinhaDeFertilizantes/Fertilog-7.5-Rebocado-00.jpg",
+    categoria: "Linha de Fertilização",
+    url: "/Fertilizantes/fertilog-7.5",
+  },
+  {
+    id: 9,
+    nome: "Fertilog 30.0 / 1500",
+    imagem: "/static/images/Produtos/LinhaDeFertilizantes/Fertilog-30.0-1500-00.jpg",
+    categoria: "Linha de Fertilização",
+    url: "/Fertilizantes/fertilog-30",
+  },
+  {
+    id: 10,
+    nome: "Fertilog Express 750",
+    imagem: "/static/images/Produtos/LinhaDeFertilizantes/Fertilog-Express-750-00.jpg",
+    categoria: "Linha de Fertilização",
+    url: "/Fertilizantes/fertilog-express-750",
+  },
+  {
+    id: 11,
+    nome: "Fertilog Express 1000",
+    imagem: "/static/images/Produtos/LinhaDeFertilizantes/Fertilog-Express-1000-00.jpg",
+    categoria: "Linha de Fertilização",
+    url: "/Fertilizantes/fertilog-express-1000",
+  },
+  {
+    id: 12,
+    nome: "Fertilog Plataforma ou Chassi 7.5 ton",
+    imagem: "/static/images/Produtos/LinhaDeFertilizantes/Fertilog-PlataformaOuChassi-7.5ton-00.jpg",
+    categoria: "Linha de Fertilização",
+    url: "/Fertilizantes/fertilog-plataforma-7.5",
+  },
+  {
+    id: 13,
+    nome: "Fertilog Plataforma ou Chassi 15 ton",
+    imagem: "/static/images/Produtos/LinhaDeFertilizantes/Fertilog-PlataformaOuChassi-15ton-00.jpg",
+    categoria: "Linha de Fertilização",
+    url: "/Fertilizantes/fertilog-plataforma-15",
+  },
+  {
+    id: 14,
+    nome: "Fertilog Plataforma ou Chassi 22.5 ton",
+    imagem: "/static/images/Produtos/LinhaDeFertilizantes/Fertilog-PlataformaOuChassi-22.5ton-00.jpg",
+    categoria: "Linha de Fertilização",
+    url: "/Fertilizantes/fertilog-plataforma-22",
+  },
+  {
+    id: 15,
+    nome: "Fertilog Semi-Reboque",
+    imagem: "/static/images/Produtos/LinhaDeFertilizantes/Fertilog-SemiReboque-00.jpg",
+    categoria: "Linha de Fertilização",
+    url: "/Fertilizantes/fertilog-semireboque",
+  },
+  {
+    id: 16,
+    nome: "Reboque 12.5 / 1500",
+    imagem: "/static/images/Produtos/LinhaDeFertilizantes/Reboque-12.5-1500-00.jpg",
+    categoria: "Linha de Fertilização",
+    url: "/Fertilizantes/reboque-12.5",
+  },
+
+{
+      id: 17,
+      nome: "Big Tanque",
+      imagem: "/static/images/produtos/categorias-bigtanque.png",
+      categoria: "Água e Calda",
+      url: "/AguaCalda/big-tanque",
+    },
+
+    
   ];
 
   const categorias = [
