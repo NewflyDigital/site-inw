@@ -26,7 +26,7 @@ export default function Fertilog() {
         <div className={styles.interno2}>
           <img
             className={styles.produto}
-            src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-30.0-1500.jpg"
+            src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-30.0-1500-00.png"
           />
         </div>
       </section>

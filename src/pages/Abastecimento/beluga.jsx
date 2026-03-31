@@ -6,7 +6,7 @@ import RodapeNewFly from "../../components/rodape-newfly";
 import Whats from "../../components/whats";
 import Link from "next/link";
 
-export default function Fertilog() {
+export default function FastSeed() {
   const [activeTab, setActiveTab] = useState("descricao");
 
   return (
@@ -16,8 +16,8 @@ export default function Fertilog() {
       {/* HERO */}
       <section className={styles.backgroundimg}>
         <div className={styles.box}>
-          <span>Logística Agrícola Avançada</span>
-          <h2>FERTILOG EXPRESS 1000</h2>
+          <span>Eficiência no Plantio</span>
+          <h2>BELUGA 20.0 / 9.500</h2>
         </div>
       </section>
 
@@ -26,8 +26,7 @@ export default function Fertilog() {
         <div className={styles.interno2}>
           <img
             className={styles.produto}
-            src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000.png"
-            alt="Fertilog Express 1000"
+            src="/static/images/produtos/AbastecimentoDeSementes/Beluga-00.png"
           />
         </div>
       </section>
@@ -36,17 +35,20 @@ export default function Fertilog() {
       <section className={styles.background}>
         <div className={styles.interno}>
           <div className={styles.box3}>
-            <h2 className={styles.titulo}>O FERTILOG EXPRESS 1000</h2>
+            <h2 className={styles.titulo}>O FAST SEED</h2>
 
             <p className={styles.paragrafo}>
-              O Fertilog Express 1000 é uma solução de transporte por esteira
-              desenvolvida para movimentação rápida e eficiente de
-              fertilizantes.
+              A Beluga 20.0 / 9.500 é uma abastecedora de sementes e insumos
+              biológicos desenvolvida para operações agrícolas de grande escala,
+              oferecendo alta capacidade de armazenamento e grande velocidade de
+              abastecimento no campo.
             </p>
 
             <p className={styles.paragrafo}>
-              Com vazão de até 1 tonelada por minuto, o equipamento garante
-              fluxo constante e alto desempenho nas operações agrícolas.
+              Com capacidade para 20 sacos de sementes, sistema de descarga por
+              esteira com vazão de 800 kg por minuto e tanque para insumos
+              biológicos de 9.500 litros, o equipamento permite abastecer
+              plantadeiras de forma rápida, segura e eficiente.
             </p>
 
             <Link legacyBehavior href="/contato">
@@ -63,7 +65,7 @@ export default function Fertilog() {
           <div className={styles.box}>
             <img
               className={styles.produtosleft}
-              src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000-01.jpg"
+              src="/static/images/produtos/AbastecimentoDeSementes/beluga-02.jpg"
             />
           </div>
         </div>
@@ -75,7 +77,7 @@ export default function Fertilog() {
           <div className={styles.box}>
             <img
               className={styles.produtosright}
-              src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000-02.jpg"
+              src="/static/images/produtos/AbastecimentoDeSementes/beluga-03.jpg"
             />
           </div>
 
@@ -83,34 +85,58 @@ export default function Fertilog() {
             <h2 className={styles.titulo}>Principais Características</h2>
 
             <p className={styles.paragrafo}>
-              • Sistema de transporte por <strong>esteira</strong>
+              • Capacidade para <strong>20 sacos de sementes</strong>
             </p>
 
             <p className={styles.paragrafo}>
-              • Vazão de <strong>1.000 kg/min</strong>
+              • Vazão de descarga de <strong>800 kg/min com esteira</strong>
             </p>
-
-            <p className={styles.paragrafo}>• Acionamento hidráulico</p>
 
             <p className={styles.paragrafo}>
-              • Altura de descarga de 4,8 metros
+              • Tanque para insumos biológicos de <strong>9.500 litros</strong>
             </p>
-            <p className={styles.paragrafo}>• Equipado com pneus</p>
+
+            <p className={styles.paragrafo}>
+              • Sistema de giro de descarga lateral
+            </p>
+
+            <p className={styles.paragrafo}>
+              • Tubo telescópico de <strong>3 estágios</strong>
+            </p>
+
+            <p className={styles.paragrafo}>
+              • Sistema <strong>Lona Fácil</strong>
+            </p>
+            <p className={styles.paragrafo}>
+              • Sistema <strong>Lona Fácil</strong>
+            </p>
+            <p className={styles.paragrafo}>
+              • Sistema <strong>Lona Fácil</strong>
+            </p>
+            <p className={styles.paragrafo}>
+              • <strong>Controle remoto</strong>
+            </p>
+            <p className={styles.paragrafo}>
+              • <strong>Motor independente</strong>
+            </p>
+            <p className={styles.paragrafo}>
+              • Não necessita basculamento do implemento
+            </p>
           </div>
         </div>
       </section>
 
-      {/* DOWNLOAD */}
+      {/* BARRA DOWNLOAD */}
       <section className={styles.background}>
         <div className={styles.barra}>
-          <div>Tecnologia avançada em abastecimento de fertilizantes</div>
+          <div>Alta eficiência no abastecimento de sementes</div>
 
           <div>
             <p>Baixar catálogo</p>
 
             <Link
               legacyBehavior
-              href="https://INWSOLUCOES.short.gy/FERTILIZANTES_INW"
+              href="https://INWSOLUCOES.short.gy/SEMENTES_INW"
             >
               <a target="_blank">
                 <img src="/static/images/download.png" />
@@ -150,8 +176,8 @@ export default function Fertilog() {
 
             <p className={styles.paragrafo}>
               {activeTab === "descricao"
-                ? "O Fertilog Express 1000 foi projetado para proporcionar transporte contínuo e eficiente de fertilizantes a granel."
-                : "Oferece maior velocidade no abastecimento e melhora a eficiência das operações agrícolas."}
+                ? "A Beluga 20.0 foi desenvolvida para atender operações agrícolas que exigem alta autonomia no abastecimento de sementes e biológicos. Seu sistema de descarga por esteira garante fluxo contínuo e eficiente, permitindo abastecer rapidamente uma ampla variedade de modelos de plantadeiras.O tanque de grande capacidade para insumos biológicos possibilita realizar o abastecimento completo durante a mesma parada, otimizando o tempo de plantio."
+                : "Com grande capacidade de armazenamento e alta velocidade de descarga, a Beluga 20.0 aumenta significativamente a eficiência das operações de plantio. O sistema evita o manuseio de Big Bags e elimina a necessidade de bascular o implemento, garantindo mais segurança e estabilidade durante o abastecimento. O resultado é mais produtividade no campo e melhor aproveitamento da janela de plantio."}
             </p>
           </div>
 
@@ -160,8 +186,8 @@ export default function Fertilog() {
               className={styles.descricao}
               src={
                 activeTab === "descricao"
-                  ? "/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000-03.jpg"
-                  : "/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000.jpg"
+                  ? "/static/images/produtos/AbastecimentoDeSementes/beluga-03.jpg"
+                  : "/static/images/produtos/AbastecimentoDeSementes/beluga-02.jpg"
               }
             />
           </div>

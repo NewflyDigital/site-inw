@@ -26,7 +26,8 @@ export default function Fertilog() {
         <div className={styles.interno2}>
           <img
             className={styles.produto}
-            src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-SemiReboque-00.jpg"
+            src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-SemiReboque-00.png"
+            alt="Fertilog Semi-Reboque 22.5"
           />
         </div>
       </section>
@@ -38,12 +39,16 @@ export default function Fertilog() {
             <h2 className={styles.titulo}>O FERTILOG SEMI REBOQUE 22.5</h2>
 
             <p className={styles.paragrafo}>
-            O Fertilog Semi-Reboque 22.5 foi desenvolvido para operações agrícolas que exigem alta capacidade de transporte e abastecimento de fertilizantes.
-              </p>
+              O Fertilog Semi-Reboque 22.5 foi desenvolvido para operações
+              agrícolas que exigem alta capacidade de transporte e abastecimento
+              de fertilizantes.
+            </p>
 
             <p className={styles.paragrafo}>
-          Com três módulos de caixas de 7,5 toneladas cada, o equipamento oferece capacidade total de 22,5 toneladas e vazão de 1,5 tonelada por minuto.
-          </p>
+              Com três módulos de caixas de 7,5 toneladas cada, o equipamento
+              oferece capacidade total de 22,5 toneladas e vazão de 1,5 tonelada
+              por minuto.
+            </p>
 
             <Link legacyBehavior href="/contato">
               <a className={styles.Botao}>
@@ -86,18 +91,12 @@ export default function Fertilog() {
               • Vazão de <strong>1.500 kg/min</strong>
             </p>
 
-            <p className={styles.paragrafo}>
-              • Três módulos de carga
-            </p>
+            <p className={styles.paragrafo}>• Três módulos de carga</p>
 
+            <p className={styles.paragrafo}>• Controle remoto</p>
             <p className={styles.paragrafo}>
-              • Controle remoto
-            </p>
-                <p className={styles.paragrafo}>
               • Tubo telescópico direcionador triplo
             </p>
-
-
           </div>
         </div>
       </section>

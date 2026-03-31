@@ -6,7 +6,7 @@ import RodapeNewFly from "../../components/rodape-newfly";
 import Whats from "../../components/whats";
 import Link from "next/link";
 
-export default function Fertilog() {
+export default function BigTanque4000() {
   const [activeTab, setActiveTab] = useState("descricao");
 
   return (
@@ -16,18 +16,18 @@ export default function Fertilog() {
       {/* HERO */}
       <section className={styles.backgroundimg}>
         <div className={styles.box}>
-          <span>Logística Agrícola Avançada</span>
-          <h2>FERTILOG EXPRESS 1000</h2>
+          <span>Excelência em Armazenamento</span>
+          <h2 className="uppercase">Big Tanque Rebocado 28500-600</h2>
         </div>
       </section>
 
-      {/* IMAGEM PRINCIPAL */}
+      {/* IMAGEM */}
       <section className={styles.background}>
         <div className={styles.interno2}>
           <img
             className={styles.produto}
-            src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000.png"
-            alt="Fertilog Express 1000"
+            src="/static/images/produtos/AguaECalda/Bigtanque-Rebocado-28500-600-00.png"
+            alt="Big Tanque Rebocado 28500-600"
           />
         </div>
       </section>
@@ -36,26 +36,28 @@ export default function Fertilog() {
       <section className={styles.background}>
         <div className={styles.interno}>
           <div className={styles.box3}>
-            <h2 className={styles.titulo}>O FERTILOG EXPRESS 1000</h2>
+            <h2 className={styles.titulo}>BIG TANQUE REBOCADO 28500-600</h2>
 
             <p className={styles.paragrafo}>
-              O Fertilog Express 1000 é uma solução de transporte por esteira
-              desenvolvida para movimentação rápida e eficiente de
-              fertilizantes.
+              O Big Tanque Rebocado 28.500 litros com pré-carregador de 600
+              litros foi desenvolvido para operações agrícolas que demandam
+              máxima capacidade e autonomia no transporte de água ou calda
+              pronta. Sua estrutura modular em polietileno rotomoldado garante
+              alta resistência e longa vida útil.
             </p>
 
             <p className={styles.paragrafo}>
-              Com vazão de até 1 tonelada por minuto, o equipamento garante
-              fluxo constante e alto desempenho nas operações agrícolas.
+              Com três módulos de 9.500 litros e sistema de pré-preparo de
+              calda, o equipamento permite maior eficiência nas operações de
+              pulverização e abastecimento. O rodado tridem com pneus de alta
+              flutuação proporciona melhor estabilidade e reduz o impacto no
+              solo.
             </p>
 
             <Link legacyBehavior href="/contato">
               <a className={styles.Botao}>
                 Faça seu pedido!
-                <img
-                  className="w-full max-w-[1rem] ml-2"
-                  src="/static/images/seta-vertical.png"
-                />
+                <img src="/static/images/seta-vertical.png" alt="" />
               </a>
             </Link>
           </div>
@@ -63,7 +65,8 @@ export default function Fertilog() {
           <div className={styles.box}>
             <img
               className={styles.produtosleft}
-              src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000-01.jpg"
+              src="/static/images/produtos/AguaECalda/Bigtanque-Rebocado-28500-600-01.jpg"
+              alt=""
             />
           </div>
         </div>
@@ -75,7 +78,8 @@ export default function Fertilog() {
           <div className={styles.box}>
             <img
               className={styles.produtosright}
-              src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000-02.jpg"
+              src="/static/images/produtos/AguaECalda/Bigtanque-Rebocado-28500-600-02.jpg"
+              alt=""
             />
           </div>
 
@@ -83,19 +87,28 @@ export default function Fertilog() {
             <h2 className={styles.titulo}>Principais Características</h2>
 
             <p className={styles.paragrafo}>
-              • Sistema de transporte por <strong>esteira</strong>
+              • Capacidade total de <strong>28.500 litros</strong>
             </p>
 
             <p className={styles.paragrafo}>
-              • Vazão de <strong>1.000 kg/min</strong>
+              • Três módulos de <strong>9.500 litros</strong>
             </p>
-
-            <p className={styles.paragrafo}>• Acionamento hidráulico</p>
 
             <p className={styles.paragrafo}>
-              • Altura de descarga de 4,8 metros
+              • Pré-carregador de <strong>600 litros</strong>
             </p>
-            <p className={styles.paragrafo}>• Equipado com pneus</p>
+
+            <p className={styles.paragrafo}>
+              • Motor diesel com partida elétrica
+            </p>
+
+            <p className={styles.paragrafo}>
+              • Bomba de polipropileno de 3&quot;
+            </p>
+
+            <p className={styles.paragrafo}>• Rodado tridem com suspensão</p>
+            <p className={styles.paragrafo}>• Pneus de alta flutuação</p>
+            <p className={styles.paragrafo}>• Estrutura reforçada</p>
           </div>
         </div>
       </section>
@@ -103,17 +116,17 @@ export default function Fertilog() {
       {/* DOWNLOAD */}
       <section className={styles.background}>
         <div className={styles.barra}>
-          <div>Tecnologia avançada em abastecimento de fertilizantes</div>
+          <div>Tecnologia e eficiência no transporte de líquidos agrícolas</div>
 
           <div>
             <p>Baixar catálogo</p>
 
             <Link
               legacyBehavior
-              href="https://INWSOLUCOES.short.gy/FERTILIZANTES_INW"
+              href="https://INWSOLUCOES.short.gy/AGUAECALDAINW"
             >
               <a target="_blank">
-                <img src="/static/images/download.png" />
+                <img src="/static/images/download.png" alt="Baixar catálogo" />
               </a>
             </Link>
           </div>
@@ -150,8 +163,8 @@ export default function Fertilog() {
 
             <p className={styles.paragrafo}>
               {activeTab === "descricao"
-                ? "O Fertilog Express 1000 foi projetado para proporcionar transporte contínuo e eficiente de fertilizantes a granel."
-                : "Oferece maior velocidade no abastecimento e melhora a eficiência das operações agrícolas."}
+                ? "O Big Tanque Rebocado 28.500 litros é uma solução de grande capacidade para operações agrícolas intensivas. Seu sistema robusto e modular garante eficiência no transporte e preparo de líquidos utilizados nas atividades do campo."
+                : "A grande capacidade do equipamento proporciona maior autonomia operacional, permitindo atender grandes áreas agrícolas com menos interrupções. Isso contribui para otimizar a logística de abastecimento e melhorar o desempenho das operações no campo."}
             </p>
           </div>
 
@@ -160,9 +173,10 @@ export default function Fertilog() {
               className={styles.descricao}
               src={
                 activeTab === "descricao"
-                  ? "/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000-03.jpg"
-                  : "/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000.jpg"
+                  ? "/static/images/produtos/AguaECalda/Bigtanque-Rebocado-28500-600-03.jpg"
+                  : "/static/images/produtos/AguaECalda/Bigtanque-Rebocado-28500-600-02.jpg"
               }
+              alt=""
             />
           </div>
         </div>

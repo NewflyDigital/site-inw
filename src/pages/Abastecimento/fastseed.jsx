@@ -26,7 +26,7 @@ export default function FastSeed() {
         <div className={styles.interno2}>
           <img
             className={styles.produto}
-            src="/static/images/produtos/fastseed.png"
+            src="/static/images/produtos/AbastecimentoDeSementes/fastseed-00.png"
           />
         </div>
       </section>

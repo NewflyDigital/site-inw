@@ -26,7 +26,8 @@ export default function Fertilog() {
         <div className={styles.interno2}>
           <img
             className={styles.produto}
-            src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-PlataformaOuChassi-15ton-00.jpg"
+            src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-PlataformaOuChassi-15ton-00.png"
+            alt="Fertilog Plataforma / Chassi 15 TON"
           />
         </div>
       </section>
@@ -35,13 +36,20 @@ export default function Fertilog() {
       <section className={styles.background}>
         <div className={styles.interno}>
           <div className={styles.box3}>
-            <h2 className={styles.titulo}>O FERTILOG PLATAFORMA / CHASSI 15 TON</h2>
+            <h2 className={styles.titulo}>
+              O FERTILOG PLATAFORMA / CHASSI 15 TON
+            </h2>
 
             <p className={styles.paragrafo}>
-            O Fertilog Plataforma ou Chassi 15 toneladas foi projetado para aumentar a autonomia de transporte e abastecimento de fertilizantes.  </p>
+              O Fertilog Plataforma ou Chassi 15 toneladas foi projetado para
+              aumentar a autonomia de transporte e abastecimento de
+              fertilizantes.{" "}
+            </p>
 
             <p className={styles.paragrafo}>
-            O equipamento utiliza duas caixas, onde uma realiza a descarga enquanto a outra faz a transferência interna do fertilizante.  </p>
+              O equipamento utiliza duas caixas, onde uma realiza a descarga
+              enquanto a outra faz a transferência interna do fertilizante.{" "}
+            </p>
 
             <Link legacyBehavior href="/contato">
               <a className={styles.Botao}>
@@ -88,10 +96,7 @@ export default function Fertilog() {
               • Tubo telescópico direcionador triplo
             </p>
 
-            <p className={styles.paragrafo}>
-              • Caixas de polietileno
-            </p>
-
+            <p className={styles.paragrafo}>• Caixas de polietileno</p>
           </div>
         </div>
       </section>

@@ -26,7 +26,8 @@ export default function Fertilog() {
         <div className={styles.interno2}>
           <img
             className={styles.produto}
-            src="/static/images/produtos/LinhaDeFertilizantes/Reboque-12.5-1500-00.jpg"
+            src="/static/images/produtos/LinhaDeFertilizantes/Reboque-12.5-1500-00.png"
+            alt="Reboque 12.5 / 1500 Autocarregável"
           />
         </div>
       </section>
@@ -35,14 +36,19 @@ export default function Fertilog() {
       <section className={styles.background}>
         <div className={styles.interno}>
           <div className={styles.box3}>
-            <h2 className={styles.titulo}>O REBOQUE 12.5 / 1500 AUTOCARREGÁVEL</h2>
+            <h2 className={styles.titulo}>
+              O REBOQUE 12.5 / 1500 AUTOCARREGÁVEL
+            </h2>
 
             <p className={styles.paragrafo}>
-            O Reboque 12.5 / 1500 Autocarregável é uma solução inovadora para transporte e abastecimento de fertilizantes a granel no campo.
+              O Reboque 12.5 / 1500 Autocarregável é uma solução inovadora para
+              transporte e abastecimento de fertilizantes a granel no campo.
             </p>
 
             <p className={styles.paragrafo}>
-              Com capacidade de carga de 12,5 toneladas e vazão de descarga de 1,5 tonelada por minuto, o equipamento oferece alta produtividade nas operações agrícolas.
+              Com capacidade de carga de 12,5 toneladas e vazão de descarga de
+              1,5 tonelada por minuto, o equipamento oferece alta produtividade
+              nas operações agrícolas.
             </p>
 
             <Link legacyBehavior href="/contato">
@@ -86,21 +92,15 @@ export default function Fertilog() {
               • Vazão de descarga de <strong>1.500 kg/min</strong>
             </p>
 
-            <p className={styles.paragrafo}>
-              • Sistema autocarregável
-            </p>
+            <p className={styles.paragrafo}>• Sistema autocarregável</p>
 
             <p className={styles.paragrafo}>
               • Tubo direcionador telescópico triplo
             </p>
 
-            <p className={styles.paragrafo}>
-              • Pneus de alta flutuação
-            </p>
+            <p className={styles.paragrafo}>• Pneus de alta flutuação</p>
 
-            <p className={styles.paragrafo}>
-              • Caixa em inox
-            </p>
+            <p className={styles.paragrafo}>• Caixa em inox</p>
           </div>
         </div>
       </section>

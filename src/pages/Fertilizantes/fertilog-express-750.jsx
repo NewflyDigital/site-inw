@@ -26,7 +26,8 @@ export default function Fertilog() {
         <div className={styles.interno2}>
           <img
             className={styles.produto}
-            src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-750.jpg"
+            src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-750.png"
+            alt="Fertilog Express 750"
           />
         </div>
       </section>
@@ -38,11 +39,14 @@ export default function Fertilog() {
             <h2 className={styles.titulo}>O FERTILOG EXPRESS 750</h2>
 
             <p className={styles.paragrafo}>
-              O Fertilog Express 750 é um transportador helicoidal desenvolvido para o abastecimento rápido de fertilizantes a granel.
+              O Fertilog Express 750 é um transportador helicoidal desenvolvido
+              para o abastecimento rápido de fertilizantes a granel.
             </p>
 
             <p className={styles.paragrafo}>
-            Com vazão de até 750 kg por minuto, o equipamento oferece alta eficiência na movimentação de fertilizantes durante as operações agrícolas.
+              Com vazão de até 750 kg por minuto, o equipamento oferece alta
+              eficiência na movimentação de fertilizantes durante as operações
+              agrícolas.
             </p>
 
             <Link legacyBehavior href="/contato">
@@ -86,15 +90,11 @@ export default function Fertilog() {
               • Vazão de <strong>750 kg/min</strong>
             </p>
 
-            <p className={styles.paragrafo}>
-              • Acionamento hidráulico
-            </p>
+            <p className={styles.paragrafo}>• Acionamento hidráulico</p>
 
             <p className={styles.paragrafo}>
               • Altura de descarga de 4,8 metros
             </p>
-
-           
           </div>
         </div>
       </section>

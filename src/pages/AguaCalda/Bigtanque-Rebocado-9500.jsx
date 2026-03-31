@@ -6,7 +6,7 @@ import RodapeNewFly from "../../components/rodape-newfly";
 import Whats from "../../components/whats";
 import Link from "next/link";
 
-export default function Fertilog() {
+export default function BigTanque4000() {
   const [activeTab, setActiveTab] = useState("descricao");
 
   return (
@@ -16,18 +16,18 @@ export default function Fertilog() {
       {/* HERO */}
       <section className={styles.backgroundimg}>
         <div className={styles.box}>
-          <span>Logística Agrícola Avançada</span>
-          <h2>FERTILOG EXPRESS 1000</h2>
+          <span>Excelência em Armazenamento</span>
+          <h2 className="uppercase">Big Tanque Rebocado 9500</h2>
         </div>
       </section>
 
-      {/* IMAGEM PRINCIPAL */}
+      {/* IMAGEM */}
       <section className={styles.background}>
         <div className={styles.interno2}>
           <img
             className={styles.produto}
-            src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000.png"
-            alt="Fertilog Express 1000"
+            src="/static/images/produtos/AguaECalda/Bigtanque-Rebocado-9500-00.png"
+            alt="Big Tanque Rebocado 9500"
           />
         </div>
       </section>
@@ -36,26 +36,25 @@ export default function Fertilog() {
       <section className={styles.background}>
         <div className={styles.interno}>
           <div className={styles.box3}>
-            <h2 className={styles.titulo}>O FERTILOG EXPRESS 1000</h2>
+            <h2 className={styles.titulo}>BIG TANQUE REBOCADO 9500</h2>
 
             <p className={styles.paragrafo}>
-              O Fertilog Express 1000 é uma solução de transporte por esteira
-              desenvolvida para movimentação rápida e eficiente de
-              fertilizantes.
+              O Big Tanque Rebocado 9500 foi projetado para operações agrícolas
+              de grande escala que exigem alta capacidade de transporte de água
+              ou calda pronta. Seu tanque em polietileno rotomoldado garante
+              resistência à corrosão e longa vida útil.
             </p>
 
             <p className={styles.paragrafo}>
-              Com vazão de até 1 tonelada por minuto, o equipamento garante
-              fluxo constante e alto desempenho nas operações agrícolas.
+              Equipado com motor diesel, bomba de alta vazão e pneus de alta
+              flutuação, o modelo oferece excelente desempenho e mobilidade no
+              campo, mesmo em terrenos mais desafiadores.
             </p>
 
             <Link legacyBehavior href="/contato">
               <a className={styles.Botao}>
                 Faça seu pedido!
-                <img
-                  className="w-full max-w-[1rem] ml-2"
-                  src="/static/images/seta-vertical.png"
-                />
+                <img src="/static/images/seta-vertical.png" />
               </a>
             </Link>
           </div>
@@ -63,7 +62,8 @@ export default function Fertilog() {
           <div className={styles.box}>
             <img
               className={styles.produtosleft}
-              src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000-01.jpg"
+              src="/static/images/produtos/AguaECalda/Bigtanque-Rebocado-9500-01.jpg"
+              alt="Big Tanque Rebocado 9500"
             />
           </div>
         </div>
@@ -75,7 +75,8 @@ export default function Fertilog() {
           <div className={styles.box}>
             <img
               className={styles.produtosright}
-              src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000-02.jpg"
+              src="/static/images/produtos/AguaECalda/Bigtanque-Rebocado-9500-02.jpg"
+              alt=""
             />
           </div>
 
@@ -83,19 +84,26 @@ export default function Fertilog() {
             <h2 className={styles.titulo}>Principais Características</h2>
 
             <p className={styles.paragrafo}>
-              • Sistema de transporte por <strong>esteira</strong>
+              • Capacidade de <strong>9.500 litros</strong>
             </p>
 
             <p className={styles.paragrafo}>
-              • Vazão de <strong>1.000 kg/min</strong>
+              • Tanque em polietileno sem emendas
             </p>
-
-            <p className={styles.paragrafo}>• Acionamento hidráulico</p>
 
             <p className={styles.paragrafo}>
-              • Altura de descarga de 4,8 metros
+              • Motor diesel de <strong>7 cv</strong>
             </p>
-            <p className={styles.paragrafo}>• Equipado com pneus</p>
+
+            <p className={styles.paragrafo}>
+              • Bomba de 2&quot; em polipropileno
+            </p>
+
+            <p className={styles.paragrafo}>• Pneus de alta flutuação</p>
+
+            <p className={styles.paragrafo}>
+              • Estrutura robusta para operações agrícolas
+            </p>
           </div>
         </div>
       </section>
@@ -103,14 +111,14 @@ export default function Fertilog() {
       {/* DOWNLOAD */}
       <section className={styles.background}>
         <div className={styles.barra}>
-          <div>Tecnologia avançada em abastecimento de fertilizantes</div>
+          <div>Tecnologia e eficiência no transporte de líquidos agrícolas</div>
 
           <div>
             <p>Baixar catálogo</p>
 
             <Link
               legacyBehavior
-              href="https://INWSOLUCOES.short.gy/FERTILIZANTES_INW"
+              href="https://INWSOLUCOES.short.gy/AGUAECALDAINW"
             >
               <a target="_blank">
                 <img src="/static/images/download.png" />
@@ -150,8 +158,8 @@ export default function Fertilog() {
 
             <p className={styles.paragrafo}>
               {activeTab === "descricao"
-                ? "O Fertilog Express 1000 foi projetado para proporcionar transporte contínuo e eficiente de fertilizantes a granel."
-                : "Oferece maior velocidade no abastecimento e melhora a eficiência das operações agrícolas."}
+                ? "O Big Tanque Rebocado 9500 é uma solução eficiente para transporte e abastecimento de líquidos em operações agrícolas intensivas. Seu sistema robusto e alta capacidade tornam o equipamento ideal para propriedades que buscam produtividade e eficiência logística."
+                : "A grande capacidade do tanque permite otimizar as operações agrícolas, reduzindo o tempo gasto com deslocamentos e reabastecimentos. Com isso, o equipamento contribui para maior produtividade no campo e melhor aproveitamento das janelas operacionais."}
             </p>
           </div>
 
@@ -160,8 +168,8 @@ export default function Fertilog() {
               className={styles.descricao}
               src={
                 activeTab === "descricao"
-                  ? "/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000-03.jpg"
-                  : "/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000.jpg"
+                  ? "/static/images/produtos/AguaECalda/Bigtanque-Rebocado-9500-03.jpg"
+                  : "/static/images/produtos/AguaECalda/Bigtanque-Rebocado-9500-02.jpg"
               }
             />
           </div>

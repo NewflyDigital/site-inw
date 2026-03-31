@@ -6,7 +6,7 @@ import RodapeNewFly from "../../components/rodape-newfly";
 import Whats from "../../components/whats";
 import Link from "next/link";
 
-export default function Fertilog() {
+export default function BigTanque4000() {
   const [activeTab, setActiveTab] = useState("descricao");
 
   return (
@@ -16,18 +16,18 @@ export default function Fertilog() {
       {/* HERO */}
       <section className={styles.backgroundimg}>
         <div className={styles.box}>
-          <span>Logística Agrícola Avançada</span>
-          <h2>FERTILOG EXPRESS 1000</h2>
+          <span>Excelência em Armazenamento</span>
+          <h2 className="uppercase">Big Tanque Roll 10700 Caldeiro 1200</h2>
         </div>
       </section>
 
-      {/* IMAGEM PRINCIPAL */}
+      {/* IMAGEM */}
       <section className={styles.background}>
         <div className={styles.interno2}>
           <img
             className={styles.produto}
-            src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000.png"
-            alt="Fertilog Express 1000"
+            src="/static/images/produtos/AguaECalda/Bigtanque-Roll-10700-caldeiro-1200-00.jpg"
+            alt=""
           />
         </div>
       </section>
@@ -36,26 +36,29 @@ export default function Fertilog() {
       <section className={styles.background}>
         <div className={styles.interno}>
           <div className={styles.box3}>
-            <h2 className={styles.titulo}>O FERTILOG EXPRESS 1000</h2>
+            <h2 className={styles.titulo}>
+              BIG TANQUE ROLL 10700 CALDEIRO 1200
+            </h2>
 
             <p className={styles.paragrafo}>
-              O Fertilog Express 1000 é uma solução de transporte por esteira
-              desenvolvida para movimentação rápida e eficiente de
-              fertilizantes.
+              O Big Tanque Roll On Roll Off 10.700 litros com caldeiro de 1.200
+              litros foi desenvolvido para operações agrícolas que exigem maior
+              eficiência no preparo e transporte de calda. Seu sistema integrado
+              permite realizar a mistura e o abastecimento diretamente no campo,
+              otimizando o processo de aplicação.
             </p>
 
             <p className={styles.paragrafo}>
-              Com vazão de até 1 tonelada por minuto, o equipamento garante
-              fluxo constante e alto desempenho nas operações agrícolas.
+              Fabricado em polietileno rotomoldado, o equipamento oferece alta
+              resistência química e longa durabilidade. O sistema Roll On Roll
+              Off permite rápida adaptação em caminhões equipados com esse tipo
+              de plataforma, garantindo maior flexibilidade operacional.
             </p>
 
             <Link legacyBehavior href="/contato">
               <a className={styles.Botao}>
                 Faça seu pedido!
-                <img
-                  className="w-full max-w-[1rem] ml-2"
-                  src="/static/images/seta-vertical.png"
-                />
+                <img src="/static/images/seta-vertical.png" alt="" />
               </a>
             </Link>
           </div>
@@ -63,7 +66,8 @@ export default function Fertilog() {
           <div className={styles.box}>
             <img
               className={styles.produtosleft}
-              src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000-01.jpg"
+              src="/static/images/produtos/AguaECalda/Bigtanque-Roll-10700-caldeiro-1200-01.jpg"
+              alt=""
             />
           </div>
         </div>
@@ -75,7 +79,8 @@ export default function Fertilog() {
           <div className={styles.box}>
             <img
               className={styles.produtosright}
-              src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000-02.jpg"
+              src="/static/images/produtos/AguaECalda/Bigtanque-Roll-10700-caldeiro-1200-02.jpg"
+              alt=""
             />
           </div>
 
@@ -83,19 +88,24 @@ export default function Fertilog() {
             <h2 className={styles.titulo}>Principais Características</h2>
 
             <p className={styles.paragrafo}>
-              • Sistema de transporte por <strong>esteira</strong>
+              • Capacidade de <strong>10.700 litros</strong>
             </p>
-
             <p className={styles.paragrafo}>
-              • Vazão de <strong>1.000 kg/min</strong>
+              • Caldeiro de pré-mistura de <strong>1.200 litros</strong>
             </p>
-
-            <p className={styles.paragrafo}>• Acionamento hidráulico</p>
-
             <p className={styles.paragrafo}>
-              • Altura de descarga de 4,8 metros
+              • Sistema <strong>Roll On Roll Off</strong>
             </p>
-            <p className={styles.paragrafo}>• Equipado com pneus</p>
+            <p className={styles.paragrafo}>
+              • Tanques em polietileno rotomoldado
+            </p>
+            <p className={styles.paragrafo}>
+              • Motor diesel com partida elétrica
+            </p>
+            <p className={styles.paragrafo}>
+              • Bomba de 2&quot; em polipropileno
+            </p>
+            <p className={styles.paragrafo}>• Estrutura modular reforçada</p>
           </div>
         </div>
       </section>
@@ -103,17 +113,17 @@ export default function Fertilog() {
       {/* DOWNLOAD */}
       <section className={styles.background}>
         <div className={styles.barra}>
-          <div>Tecnologia avançada em abastecimento de fertilizantes</div>
+          <div>Tecnologia e eficiência no transporte de líquidos agrícolas</div>
 
           <div>
             <p>Baixar catálogo</p>
 
             <Link
               legacyBehavior
-              href="https://INWSOLUCOES.short.gy/FERTILIZANTES_INW"
+              href="https://INWSOLUCOES.short.gy/AGUAECALDAINW"
             >
               <a target="_blank">
-                <img src="/static/images/download.png" />
+                <img src="/static/images/download.png" alt="Baixar catálogo" />
               </a>
             </Link>
           </div>
@@ -150,8 +160,8 @@ export default function Fertilog() {
 
             <p className={styles.paragrafo}>
               {activeTab === "descricao"
-                ? "O Fertilog Express 1000 foi projetado para proporcionar transporte contínuo e eficiente de fertilizantes a granel."
-                : "Oferece maior velocidade no abastecimento e melhora a eficiência das operações agrícolas."}
+                ? "O Big Tanque Roll On Roll Off 10.700 com caldeiro de 1.200 litros oferece uma solução eficiente para o preparo e transporte de calda pronta em operações agrícolas intensivas."
+                : "O sistema integrado de mistura permite preparar a calda de forma rápida e segura diretamente no campo, reduzindo o tempo de parada das máquinas e aumentando a eficiência das operações agrícolas."}
             </p>
           </div>
 
@@ -160,9 +170,10 @@ export default function Fertilog() {
               className={styles.descricao}
               src={
                 activeTab === "descricao"
-                  ? "/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000-03.jpg"
-                  : "/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000.jpg"
+                  ? "/static/images/produtos/AguaECalda/Bigtanque-Roll-10700-caldeiro-1200-03.jpg"
+                  : "/static/images/produtos/AguaECalda/Bigtanque-Roll-10700-caldeiro-1200-02.jpg"
               }
+              alt=""
             />
           </div>
         </div>

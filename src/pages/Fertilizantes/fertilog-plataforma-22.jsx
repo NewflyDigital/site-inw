@@ -26,7 +26,8 @@ export default function Fertilog() {
         <div className={styles.interno2}>
           <img
             className={styles.produto}
-            src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-PlataformaOuChassi-22.5ton-00.jpg"
+            src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-PlataformaOuChassi-22.5ton-00.png"
+            alt="Fertilog Plataforma / Chassi 22.5 Ton"
           />
         </div>
       </section>
@@ -35,15 +36,21 @@ export default function Fertilog() {
       <section className={styles.background}>
         <div className={styles.interno}>
           <div className={styles.box3}>
-            <h2 className={styles.titulo}>O FERTILOG PLATAFORMA / CHASSI 22.5 TON</h2>
+            <h2 className={styles.titulo}>
+              O FERTILOG PLATAFORMA / CHASSI 22.5 TON
+            </h2>
 
             <p className={styles.paragrafo}>
-            O Fertilog Plataforma ou Chassi 22.5 é um implemento desenvolvido para operações agrícolas que exigem grande autonomia de transporte de fertilizantes.
+              O Fertilog Plataforma ou Chassi 22.5 é um implemento desenvolvido
+              para operações agrícolas que exigem grande autonomia de transporte
+              de fertilizantes.
             </p>
 
             <p className={styles.paragrafo}>
-          Com três módulos de caixas, o sistema central realiza a descarga enquanto os outros realizam a transferência interna do fertilizante.
-          </p>
+              Com três módulos de caixas, o sistema central realiza a descarga
+              enquanto os outros realizam a transferência interna do
+              fertilizante.
+            </p>
 
             <Link legacyBehavior href="/contato">
               <a className={styles.Botao}>
@@ -82,18 +89,13 @@ export default function Fertilog() {
               • Capacidade de carga de <strong>22,5 toneladas</strong>
             </p>
 
-            <p className={styles.paragrafo}>
-              • Três módulos de carga
-            </p>
+            <p className={styles.paragrafo}>• Três módulos de carga</p>
 
             <p className={styles.paragrafo}>
               • Tubo telescópico direcionador triplo
             </p>
 
-            <p className={styles.paragrafo}>
-              • Caixas de polietileno
-            </p>
-
+            <p className={styles.paragrafo}>• Caixas de polietileno</p>
           </div>
         </div>
       </section>

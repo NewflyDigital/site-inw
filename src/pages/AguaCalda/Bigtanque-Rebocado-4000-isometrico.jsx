@@ -6,7 +6,7 @@ import RodapeNewFly from "../../components/rodape-newfly";
 import Whats from "../../components/whats";
 import Link from "next/link";
 
-export default function Fertilog() {
+export default function BigTanqueEspeciais() {
   const [activeTab, setActiveTab] = useState("descricao");
 
   return (
@@ -16,18 +16,17 @@ export default function Fertilog() {
       {/* HERO */}
       <section className={styles.backgroundimg}>
         <div className={styles.box}>
-          <span>Logística Agrícola Avançada</span>
-          <h2>FERTILOG EXPRESS 1000</h2>
+          <span>Excelência em Armazenamento</span>
+          <h2 className="uppercase">Big tanque Rebocado 4000 Isométrico</h2>
         </div>
       </section>
 
-      {/* IMAGEM PRINCIPAL */}
+      {/* IMAGEM */}
       <section className={styles.background}>
         <div className={styles.interno2}>
           <img
             className={styles.produto}
-            src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000.png"
-            alt="Fertilog Express 1000"
+            src="/static/images/produtos/AguaECalda/Bigtanque-Rebocado-4000-isometrico-00.png"
           />
         </div>
       </section>
@@ -36,26 +35,20 @@ export default function Fertilog() {
       <section className={styles.background}>
         <div className={styles.interno}>
           <div className={styles.box3}>
-            <h2 className={styles.titulo}>O FERTILOG EXPRESS 1000</h2>
+            <h2 className={styles.titulo}>BIG TANQUE REBOCADO 4000 ISOMÉTRICO</h2>
 
             <p className={styles.paragrafo}>
-              O Fertilog Express 1000 é uma solução de transporte por esteira
-              desenvolvida para movimentação rápida e eficiente de
-              fertilizantes.
+             O Big Tanque Rebocado 4000 Isotérmico foi desenvolvido especialmente para o transporte de insumos biológicos e líquidos que exigem controle de temperatura durante as operações agrícolas. Seu tanque em polietileno rotomoldado possui camada térmica adicional que ajuda a manter a estabilidade térmica por até 72 horas.
             </p>
 
             <p className={styles.paragrafo}>
-              Com vazão de até 1 tonelada por minuto, o equipamento garante
-              fluxo constante e alto desempenho nas operações agrícolas.
+             Além da proteção térmica, o equipamento conta com tanque auxiliar de água limpa, motor diesel e sistema de bombeamento de alta eficiência, garantindo autonomia e desempenho durante as operações no campo. 
             </p>
 
             <Link legacyBehavior href="/contato">
               <a className={styles.Botao}>
                 Faça seu pedido!
-                <img
-                  className="w-full max-w-[1rem] ml-2"
-                  src="/static/images/seta-vertical.png"
-                />
+                <img src="/static/images/seta-vertical.png" />
               </a>
             </Link>
           </div>
@@ -63,7 +56,7 @@ export default function Fertilog() {
           <div className={styles.box}>
             <img
               className={styles.produtosleft}
-              src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000-01.jpg"
+              src="/static/images/produtos/AguaECalda/Bigtanque-Rebocado-4000-isometrico-01.jpg"
             />
           </div>
         </div>
@@ -75,7 +68,7 @@ export default function Fertilog() {
           <div className={styles.box}>
             <img
               className={styles.produtosright}
-              src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000-02.jpg"
+              src="/static/images/produtos/AguaECalda/Bigtanque-Rebocado-4000-isometrico-02.jpg"
             />
           </div>
 
@@ -83,19 +76,31 @@ export default function Fertilog() {
             <h2 className={styles.titulo}>Principais Características</h2>
 
             <p className={styles.paragrafo}>
-              • Sistema de transporte por <strong>esteira</strong>
+              • Tanque isotérmico de <strong>4.000 litros</strong>
             </p>
 
             <p className={styles.paragrafo}>
-              • Vazão de <strong>1.000 kg/min</strong>
+              • Tanque auxiliar de água limpa de <strong>1.000 litros</strong>
             </p>
-
-            <p className={styles.paragrafo}>• Acionamento hidráulico</p>
 
             <p className={styles.paragrafo}>
-              • Altura de descarga de 4,8 metros
+              • Motor diesel 
             </p>
-            <p className={styles.paragrafo}>• Equipado com pneus</p>
+
+            <p className={styles.paragrafo}>
+              • Bomba de polipropileno de 3"
+            </p>
+
+            <p className={styles.paragrafo}>
+              • Pneus de alta flutuação
+            </p>
+
+            <p className={styles.paragrafo}>
+              • Escada e visor de nível
+            </p>
+            <p className={styles.paragrafo}>
+              • Estrutura sem emendas ou soldas
+            </p>
           </div>
         </div>
       </section>
@@ -103,14 +108,14 @@ export default function Fertilog() {
       {/* DOWNLOAD */}
       <section className={styles.background}>
         <div className={styles.barra}>
-          <div>Tecnologia avançada em abastecimento de fertilizantes</div>
+          <div>Tecnologia e eficiência no transporte de líquidos agrícolas</div>
 
           <div>
             <p>Baixar catálogo</p>
 
             <Link
               legacyBehavior
-              href="https://INWSOLUCOES.short.gy/FERTILIZANTES_INW"
+              href="https://INWSOLUCOES.short.gy/AGUAECALDAINW"
             >
               <a target="_blank">
                 <img src="/static/images/download.png" />
@@ -150,8 +155,8 @@ export default function Fertilog() {
 
             <p className={styles.paragrafo}>
               {activeTab === "descricao"
-                ? "O Fertilog Express 1000 foi projetado para proporcionar transporte contínuo e eficiente de fertilizantes a granel."
-                : "Oferece maior velocidade no abastecimento e melhora a eficiência das operações agrícolas."}
+                ? "O Big Tanque Rebocado 4000 Isotérmico oferece uma solução eficiente para o transporte seguro de insumos sensíveis à temperatura, como produtos biológicos. Seu sistema térmico e estrutura robusta garantem maior proteção dos produtos transportados."
+                : "A tecnologia isotérmica permite preservar a qualidade e a eficiência dos insumos transportados por longos períodos, reduzindo perdas e garantindo maior segurança no manejo de produtos biológicos. Isso contribui para melhorar o desempenho das aplicações e a eficiência das operações agrícolas."}
             </p>
           </div>
 
@@ -160,8 +165,8 @@ export default function Fertilog() {
               className={styles.descricao}
               src={
                 activeTab === "descricao"
-                  ? "/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000-03.jpg"
-                  : "/static/images/produtos/LinhaDeFertilizantes/Fertilog-Express-1000.jpg"
+                  ? "/static/images/produtos/AguaECalda/Bigtanque-Rebocado-4000-isometrico-03.jpg"
+                  : "/static/images/produtos/AguaECalda/Bigtanque-Rebocado-4000-isometrico-02.jpg"
               }
             />
           </div>

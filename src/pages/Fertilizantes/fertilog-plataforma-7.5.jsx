@@ -26,7 +26,8 @@ export default function Fertilog() {
         <div className={styles.interno2}>
           <img
             className={styles.produto}
-            src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-PlataformaOuChassi-7.5ton-00.jpg"
+            src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-PlataformaOuChassi-7.5ton-00.png"
+            alt="Fertilog Plataforma / Chassi 7.5 TON"
           />
         </div>
       </section>
@@ -35,14 +36,20 @@ export default function Fertilog() {
       <section className={styles.background}>
         <div className={styles.interno}>
           <div className={styles.box3}>
-            <h2 className={styles.titulo}>O FERTILOG PLATAFORMA / CHASSI 7.5 TON</h2>
+            <h2 className={styles.titulo}>
+              O FERTILOG PLATAFORMA / CHASSI 7.5 TON
+            </h2>
 
             <p className={styles.paragrafo}>
-             O Fertilog Plataforma ou Chassi 7.5 foi desenvolvido para oferecer uma solução compacta e eficiente para transporte e abastecimento de fertilizantes.
+              O Fertilog Plataforma ou Chassi 7.5 foi desenvolvido para oferecer
+              uma solução compacta e eficiente para transporte e abastecimento
+              de fertilizantes.
             </p>
 
             <p className={styles.paragrafo}>
-              Com sistema hidráulico acionado pela tomada de força, o equipamento oferece vazão de 350 a 1500 kg por minuto, dependendo da configuração.
+              Com sistema hidráulico acionado pela tomada de força, o
+              equipamento oferece vazão de 350 a 1500 kg por minuto, dependendo
+              da configuração.
             </p>
 
             <Link legacyBehavior href="/contato">
@@ -86,18 +93,13 @@ export default function Fertilog() {
               • Vazão de <strong>350 a 1.500 kg/min</strong>
             </p>
 
-            <p className={styles.paragrafo}>
-              • Tubo longo sem emendas
-            </p>
+            <p className={styles.paragrafo}>• Tubo longo sem emendas</p>
 
             <p className={styles.paragrafo}>
               • Tubo telescópico direcionador triplo
             </p>
 
-            <p className={styles.paragrafo}>
-              • Caixas de polietileno
-            </p>
-
+            <p className={styles.paragrafo}>• Caixas de polietileno</p>
           </div>
         </div>
       </section>
