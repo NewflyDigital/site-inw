@@ -94,20 +94,12 @@ export default function BigTanqueEspeciais() {
               • Motor diesel com partida elétrica
             </p>
 
-            <p className={styles.paragrafo}>
-              • Bomba de 2" em polipropileno
-            </p>
+            <p className={styles.paragrafo}>• Bomba de 2" em polipropileno</p>
 
-            <p className={styles.paragrafo}>
-              • Pneus de alta flutuação
-            </p>
+            <p className={styles.paragrafo}>• Pneus de alta flutuação</p>
 
-            <p className={styles.paragrafo}>
-              • Escada e régua de nível
-            </p>
-            <p className={styles.paragrafo}>
-              • Pé de apoio 
-            </p>
+            <p className={styles.paragrafo}>• Escada e régua de nível</p>
+            <p className={styles.paragrafo}>• Pé de apoio</p>
           </div>
         </div>
       </section>
@@ -195,6 +187,16 @@ export default function BigTanqueEspeciais() {
         </div>
       </section>
 
+      <div className={styles.whats}>
+        <Link
+          legacyBehavior
+          href="https://api.whatsapp.com/send?phone=5554991391183&text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20tenho%20interesse%20no%20produto%20Big%20Tanque%20Rebocado%204000%20250"
+        >
+          <a target="_blank">
+            <img src="/whatsapp.png" alt="Whats App" />
+          </a>
+        </Link>
+      </div>
       <Whats />
       <Rodape />
       <RodapeNewFly />

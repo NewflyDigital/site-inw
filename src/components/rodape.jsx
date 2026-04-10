@@ -40,6 +40,14 @@ function Rodape() {
               <br />
               CEP:99350-000
             </p>
+            <a className="flex flex-row items-center justify-start">
+              Origem Brasileira&nbsp;
+              <img
+                className="w-full max-w-[1.5rem]"
+                src="/static/images/icone-brasil.png"
+                alt=""
+              />
+            </a>
           </div>
 
           <div className={styles.divisor}></div>

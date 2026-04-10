@@ -89,17 +89,13 @@ export default function Fertilog() {
               • Vazão de descarga de <strong>350 kg/min</strong>
             </p>
 
-            <p className={styles.paragrafo}>
-              • Tubo longo sem emendas
-            </p>
+            <p className={styles.paragrafo}>• Tubo longo sem emendas</p>
 
             <p className={styles.paragrafo}>
               • Tubo direcionador telescópico triplo
             </p>
 
-            <p className={styles.paragrafo}>
-              • Pneus de alta flutuação
-            </p>
+            <p className={styles.paragrafo}>• Pneus de alta flutuação</p>
 
             <p className={styles.paragrafo}>
               • Acionamento hidráulico pelo trator
@@ -190,6 +186,17 @@ export default function Fertilog() {
           </div>
         </div>
       </section>
+
+      <div className={styles.whats}>
+        <Link
+          legacyBehavior
+          href="https://api.whatsapp.com/send?phone=5554991391183&text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20tenho%20interesse%20no%20produto%20Fertilog%207.5%20Rebocado"
+        >
+          <a target="_blank">
+            <img src="/whatsapp.png" alt="Whats App" />
+          </a>
+        </Link>
+      </div>
 
       <Whats />
       <Rodape />

@@ -90,17 +90,11 @@ export default function BigTanqueEspeciais() {
               • Tanque em polietileno rotomoldado
             </p>
 
-            <p className={styles.paragrafo}>
-              • Superfície interna lisa
-            </p>
+            <p className={styles.paragrafo}>• Superfície interna lisa</p>
 
-            <p className={styles.paragrafo}>
-              • Estrutura sem soldas
-            </p>
+            <p className={styles.paragrafo}>• Estrutura sem soldas</p>
 
-            <p className={styles.paragrafo}>
-              • Chassi em aço carbono
-            </p>
+            <p className={styles.paragrafo}>• Chassi em aço carbono</p>
           </div>
         </div>
       </section>
@@ -187,6 +181,17 @@ export default function BigTanqueEspeciais() {
           </div>
         </div>
       </section>
+
+      <div className={styles.whats}>
+        <Link
+          legacyBehavior
+          href="https://api.whatsapp.com/send?phone=5554991391183&text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20tenho%20interesse%20no%20produto%20Big%20Tanque%20Rebocado%202500"
+        >
+          <a target="_blank">
+            <img src="/whatsapp.png" alt="Whats App" />
+          </a>
+        </Link>
+      </div>
 
       <Whats />
       <Rodape />

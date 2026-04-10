@@ -74,13 +74,12 @@
   cursor: pointer;
 }
 
-
 .imagem {
   background-color: #f4f4f4;
   padding: 4rem 2rem;
   width: 100%;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .cardProduto img {
@@ -287,37 +286,36 @@
   padding: 2rem 2rem;
   border-bottom: 1px solid #1e1e1e;
 
-
   position: relative;
   overflow: hidden;
-  transition: all .35s ease;
+  transition: all 0.35s ease;
 }
 
-
-.categorias::before{
-  content:"";
-  position:absolute;
-  left:0;
-  bottom:0;
-  width:0%;
-  height:3px;
-  background:#18bd36;
-  transition:width .4s ease;
+.categorias::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 3px;
+  background: #18bd36;
+  transition: width 0.4s ease;
 }
 
-.categorias:hover::before{
-  width:100%;
+.categorias:hover::before {
+  width: 100%;
+  background: var(--cor);
 }
 
 .categorias:hover {
   color: #ffffff;
-  background-color: #18bd36;
   border-radius: 2rem;
-  border-bottom: 1px solid #18bd36;
-  
 
   transform: translateY(-4px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+
+  background-color: var(--cor);
+  border-bottom: 1px solid var(--cor);
 }
 
 .categorias h4 {
@@ -340,8 +338,8 @@
   font-size: 12px;
   transition: all 0.3s ease;
   border-radius: 24px;
-  border: 2px solid #18bd36;
-  color: #18bd36;
+  border: 2px solid var(--cor);
+  color: var(--cor);
   background-color: transparent;
 }
 
@@ -352,8 +350,7 @@
   margin-top: 0rem;
 }
 
-
-.categorias:hover .Botao2{
+.categorias:hover .Botao2 {
   background-color: transparent;
   color: #fff;
   border: 2px solid #ffffff;
@@ -365,10 +362,26 @@
   filter: brightness(0) invert(1);
 }
 
+/* CORES BASE */
+.azul {
+  --cor: #007bff;
+}
+
+.verde {
+  --cor: #18bd36;
+}
+
+.amarelo {
+  --cor: #f4c542;
+}
+
+.marrom {
+  --cor: #8b5a2b;
+}
+
 /*FIM Categorias*/
 
 @media only screen and (max-width: 926px) {
-
   .background {
     padding: 2rem 1.5rem;
   }
@@ -422,28 +435,26 @@
 
   /* IMAGENS CASCATA */
 
-.internoImages {
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-}
+  .internoImages {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
 
-.MoveImage {
-  max-width: 90%;
-}
+  .MoveImage {
+    max-width: 90%;
+  }
 
+  .MoveImage:nth-child(2) {
+    margin-top: -13rem;
+  }
 
-.MoveImage:nth-child(2) {
-  margin-top: -13rem;
-}
-
-.MoveImage:nth-child(1) {
-  margin-top: 16rem;
-}
-.MoveImage:nth-child(3) {
-  margin-top: -13rem;
-}
-  
+  .MoveImage:nth-child(1) {
+    margin-top: 16rem;
+  }
+  .MoveImage:nth-child(3) {
+    margin-top: -13rem;
+  }
 
   /* CATEGORIAS */
 
@@ -474,5 +485,4 @@
     flex-direction: column;
     gap: 2rem;
   }
-
 }

@@ -38,11 +38,17 @@ export default function Fertilog() {
             <h2 className={styles.titulo}>O Canudão 3000</h2>
 
             <p className={styles.paragrafo}>
-             O Canudão 3000 é uma das soluções mais avançadas da linha de fertilizantes da INW Soluções, desenvolvido para operações agrícolas que exigem alta capacidade de descarga e máxima produtividade no abastecimento.
+              O Canudão 3000 é uma das soluções mais avançadas da linha de
+              fertilizantes da INW Soluções, desenvolvido para operações
+              agrícolas que exigem alta capacidade de descarga e máxima
+              produtividade no abastecimento.
             </p>
 
             <p className={styles.paragrafo}>
-              Equipado com motor diesel independente e sistema hidráulico robusto, o Canudão 3000 oferece vazão de até 3 toneladas por minuto, permitindo abastecer plantadeiras, adubadeiras e silos bolsa com extrema rapidez e segurança.
+              Equipado com motor diesel independente e sistema hidráulico
+              robusto, o Canudão 3000 oferece vazão de até 3 toneladas por
+              minuto, permitindo abastecer plantadeiras, adubadeiras e silos
+              bolsa com extrema rapidez e segurança.
             </p>
 
             <Link legacyBehavior href="/contato">
@@ -94,21 +100,15 @@ export default function Fertilog() {
               •Sistema de operação via <strong>controle remoto</strong>
             </p>
 
-            <p className={styles.paragrafo}>
-              • Tubo com abertura lateral
-            </p>
+            <p className={styles.paragrafo}>• Tubo com abertura lateral</p>
 
-            <p className={styles.paragrafo}>
-              • Sistema Lona Fácil
-            </p>
+            <p className={styles.paragrafo}>• Sistema Lona Fácil</p>
 
             <p className={styles.paragrafo}>
               • Instalação em semi-reboque 3 eixos LS
             </p>
 
-            <p className={styles.paragrafo}>
-              • Operação com apenas 1 operador
-            </p>
+            <p className={styles.paragrafo}>• Operação com apenas 1 operador</p>
           </div>
         </div>
       </section>
@@ -195,6 +195,17 @@ export default function Fertilog() {
           </div>
         </div>
       </section>
+
+      <div className={styles.whats}>
+        <Link
+          legacyBehavior
+          href="https://api.whatsapp.com/send?phone=5554991391183&text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20tenho%20interesse%20no%20produto%20Canud%C3%A3o%203000"
+        >
+          <a target="_blank">
+            <img src="/whatsapp.png" alt="Whats App" />
+          </a>
+        </Link>
+      </div>
 
       <Whats />
       <Rodape />

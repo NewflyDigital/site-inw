@@ -35,14 +35,24 @@ export default function BigTanqueEspeciais() {
       <section className={styles.background}>
         <div className={styles.interno}>
           <div className={styles.box3}>
-            <h2 className={styles.titulo}>BIG TANQUE REBOCADO 4000 ISOMÉTRICO</h2>
+            <h2 className={styles.titulo}>
+              BIG TANQUE REBOCADO 4000 ISOMÉTRICO
+            </h2>
 
             <p className={styles.paragrafo}>
-             O Big Tanque Rebocado 4000 Isotérmico foi desenvolvido especialmente para o transporte de insumos biológicos e líquidos que exigem controle de temperatura durante as operações agrícolas. Seu tanque em polietileno rotomoldado possui camada térmica adicional que ajuda a manter a estabilidade térmica por até 72 horas.
+              O Big Tanque Rebocado 4000 Isotérmico foi desenvolvido
+              especialmente para o transporte de insumos biológicos e líquidos
+              que exigem controle de temperatura durante as operações agrícolas.
+              Seu tanque em polietileno rotomoldado possui camada térmica
+              adicional que ajuda a manter a estabilidade térmica por até 72
+              horas.
             </p>
 
             <p className={styles.paragrafo}>
-             Além da proteção térmica, o equipamento conta com tanque auxiliar de água limpa, motor diesel e sistema de bombeamento de alta eficiência, garantindo autonomia e desempenho durante as operações no campo. 
+              Além da proteção térmica, o equipamento conta com tanque auxiliar
+              de água limpa, motor diesel e sistema de bombeamento de alta
+              eficiência, garantindo autonomia e desempenho durante as operações
+              no campo.
             </p>
 
             <Link legacyBehavior href="/contato">
@@ -83,21 +93,13 @@ export default function BigTanqueEspeciais() {
               • Tanque auxiliar de água limpa de <strong>1.000 litros</strong>
             </p>
 
-            <p className={styles.paragrafo}>
-              • Motor diesel 
-            </p>
+            <p className={styles.paragrafo}>• Motor diesel</p>
 
-            <p className={styles.paragrafo}>
-              • Bomba de polipropileno de 3"
-            </p>
+            <p className={styles.paragrafo}>• Bomba de polipropileno de 3"</p>
 
-            <p className={styles.paragrafo}>
-              • Pneus de alta flutuação
-            </p>
+            <p className={styles.paragrafo}>• Pneus de alta flutuação</p>
 
-            <p className={styles.paragrafo}>
-              • Escada e visor de nível
-            </p>
+            <p className={styles.paragrafo}>• Escada e visor de nível</p>
             <p className={styles.paragrafo}>
               • Estrutura sem emendas ou soldas
             </p>
@@ -187,6 +189,17 @@ export default function BigTanqueEspeciais() {
           </div>
         </div>
       </section>
+
+      <div className={styles.whats}>
+        <Link
+          legacyBehavior
+          href="https://api.whatsapp.com/send?phone=5554991391183&text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20tenho%20interesse%20no%20produto%20Big%20Tanque%20Rebocado%204000%20Isom%C3%A9trico"
+        >
+          <a target="_blank">
+            <img src="/whatsapp.png" alt="Whats App" />
+          </a>
+        </Link>
+      </div>
 
       <Whats />
       <Rodape />

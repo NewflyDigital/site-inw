@@ -17,7 +17,7 @@ export default function BigTanque4000() {
       <section className={styles.backgroundimg}>
         <div className={styles.box}>
           <span>Excelência em Armazenamento</span>
-          <h2 className="uppercase">Big Tanque Roll 13000</h2>
+          <h2 className="uppercase">Big Tanque Roll on Roll Off 13000</h2>
         </div>
       </section>
 
@@ -36,7 +36,7 @@ export default function BigTanque4000() {
       <section className={styles.background}>
         <div className={styles.interno}>
           <div className={styles.box3}>
-            <h2 className={styles.titulo}>BIG TANQUE ROLL 13000</h2>
+            <h2 className={styles.titulo}>BIG TANQUE Roll on Roll Off 13000</h2>
 
             <p className={styles.paragrafo}>
               O Big Tanque Roll On Roll Off 13.000 litros é ideal para operações
@@ -185,6 +185,17 @@ export default function BigTanque4000() {
           </div>
         </div>
       </section>
+
+      <div className={styles.whats}>
+        <Link
+          legacyBehavior
+          href="https://api.whatsapp.com/send?phone=5554991391183&text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20tenho%20interesse%20no%20produto%20Big%20Tanque%20Roll%20on%20Roll%20Off%2013000"
+        >
+          <a target="_blank">
+            <img src="/whatsapp.png" alt="Whats App" />
+          </a>
+        </Link>
+      </div>
 
       <Whats />
       <Rodape />

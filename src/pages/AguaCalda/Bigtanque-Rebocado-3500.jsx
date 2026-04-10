@@ -38,12 +38,18 @@ export default function BigTanqueEspeciais() {
             <h2 className={styles.titulo}>BIG TANQUE REBOCADO 2500</h2>
 
             <p className={styles.paragrafo}>
-              O Big Tanque Rebocado 3500 foi projetado para oferecer mobilidade e eficiência no transporte de água ou calda pronta nas operações agrícolas. Seu tanque esférico em polietileno garante alta resistência e durabilidade, mesmo em condições severas de trabalho.
+              O Big Tanque Rebocado 3500 foi projetado para oferecer mobilidade
+              e eficiência no transporte de água ou calda pronta nas operações
+              agrícolas. Seu tanque esférico em polietileno garante alta
+              resistência e durabilidade, mesmo em condições severas de
+              trabalho.
             </p>
 
             <p className={styles.paragrafo}>
-              Com rodado de alta flutuação e estrutura robusta, o equipamento proporciona maior estabilidade e reduz a compactação do solo, sendo ideal para operações em diferentes tipos de terreno.
-              </p>
+              Com rodado de alta flutuação e estrutura robusta, o equipamento
+              proporciona maior estabilidade e reduz a compactação do solo,
+              sendo ideal para operações em diferentes tipos de terreno.
+            </p>
 
             <Link legacyBehavior href="/contato">
               <a className={styles.Botao}>
@@ -79,23 +85,13 @@ export default function BigTanqueEspeciais() {
               • Capacidade de <strong>3.500 litros</strong>
             </p>
 
-            <p className={styles.paragrafo}>
-              • Tanque esférico em polietileno
-            </p>
+            <p className={styles.paragrafo}>• Tanque esférico em polietileno</p>
 
-            <p className={styles.paragrafo}>
-              • Pneus de alta flutuação
-            </p>
+            <p className={styles.paragrafo}>• Pneus de alta flutuação</p>
 
-            <p className={styles.paragrafo}>
-              • Escada de acesso
-            </p>
-            <p className={styles.paragrafo}>
-              • Visor de nível
-            </p>
-            <p className={styles.paragrafo}>
-              • Pé de apoio com regulagem
-            </p>
+            <p className={styles.paragrafo}>• Escada de acesso</p>
+            <p className={styles.paragrafo}>• Visor de nível</p>
+            <p className={styles.paragrafo}>• Pé de apoio com regulagem</p>
           </div>
         </div>
       </section>
@@ -182,6 +178,16 @@ export default function BigTanqueEspeciais() {
           </div>
         </div>
       </section>
+      <div className={styles.whats}>
+        <Link
+          legacyBehavior
+          href="https://api.whatsapp.com/send?phone=5554991391183&text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20tenho%20interesse%20no%20produto%20Big%20Tanque%20Rebocado%203500"
+        >
+          <a target="_blank">
+            <img src="/whatsapp.png" alt="Whats App" />
+          </a>
+        </Link>
+      </div>
 
       <Whats />
       <Rodape />

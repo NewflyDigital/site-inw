@@ -67,7 +67,7 @@ export default function Fertilog() {
           <div className={styles.box}>
             <img
               className={styles.produtosleft}
-              src="/static/images/produtos/MovimentacaoDeSolo/Plain-INW.jpg"
+              src="/static/images/produtos/MovimentacaoDeSolo/Plain-INW-02.jpg"
             />
           </div>
         </div>
@@ -79,7 +79,7 @@ export default function Fertilog() {
           <div className={styles.box}>
             <img
               className={styles.produtosright}
-              src="/static/images/produtos/MovimentacaoDeSolo/Plain-INW.jpg"
+              src="/static/images/produtos/MovimentacaoDeSolo/Plain-INW-01.jpg"
             />
           </div>
 
@@ -104,17 +104,15 @@ export default function Fertilog() {
             <p className={styles.paragrafo}>
               • Navalhas tipo patrola para maior desempenho
             </p>
+            <p className={styles.paragrafo}>• Rodado com pneus 12.4/24</p>
             <p className={styles.paragrafo}>
-              • Rodado com pneus 12.4/24
+              • Chassi longo e robusto para maior estabilidade
             </p>
             <p className={styles.paragrafo}>
-              • Chassi longo e robusto para maior estabilidade 
+              • Engate tipo rótula com regulagem de altura
             </p>
             <p className={styles.paragrafo}>
-              • Engate tipo rótula com regulagem de altura 
-            </p>
-            <p className={styles.paragrafo}>
-              • Sistema de acionamento hidráulico duplo 
+              • Sistema de acionamento hidráulico duplo
             </p>
           </div>
         </div>
@@ -177,7 +175,7 @@ export default function Fertilog() {
               className={styles.descricao}
               src={
                 activeTab === "descricao"
-                  ? "/static/images/produtos/MovimentacaoDeSolo/plain-inw.jpg"
+                  ? "/static/images/produtos/MovimentacaoDeSolo/plain-inw-03.jpg"
                   : "/static/images/produtos/MovimentacaoDeSolo/plain-inw-01.jpg"
               }
             />
@@ -189,9 +187,7 @@ export default function Fertilog() {
       <section className={styles.footer}>
         <div className={styles.interno}>
           <div className={styles.box3}>
-            <h2 className={styles.titulo3}>
-              Somos o pit stop do Agro
-            </h2>
+            <h2 className={styles.titulo3}>Somos o pit stop do Agro</h2>
           </div>
 
           <div className={styles.box2}>
@@ -201,6 +197,17 @@ export default function Fertilog() {
           </div>
         </div>
       </section>
+
+      <div className={styles.whats}>
+        <Link
+          legacyBehavior
+          href="https://api.whatsapp.com/send?phone=5554991391183&text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20tenho%20interesse%20no%20produto%20Plain%20INW"
+        >
+          <a target="_blank">
+            <img src="/whatsapp.png" alt="Whats App" />
+          </a>
+        </Link>
+      </div>
 
       <Whats />
       <Rodape />

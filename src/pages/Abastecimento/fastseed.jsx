@@ -39,14 +39,14 @@ export default function FastSeed() {
 
             <p className={styles.paragrafo}>
               O Fast Seed é uma solução avançada para abastecimento de
-              plantadeiras, projetada para otimizar as operações no campo
-              com rapidez, precisão e máxima eficiência.
+              plantadeiras, projetada para otimizar as operações no campo com
+              rapidez, precisão e máxima eficiência.
             </p>
 
             <p className={styles.paragrafo}>
               Com tecnologia inovadora e design robusto, o sistema garante
-              abastecimento ágil de sementes e bioinsumos, reduzindo o tempo
-              de parada das plantadeiras e aumentando a produtividade.
+              abastecimento ágil de sementes e bioinsumos, reduzindo o tempo de
+              parada das plantadeiras e aumentando a produtividade.
             </p>
 
             <Link legacyBehavior href="/contato">
@@ -117,7 +117,10 @@ export default function FastSeed() {
           <div>
             <p>Baixar catálogo</p>
 
-            <Link legacyBehavior href="https://INWSOLUCOES.short.gy/SEMENTES_INW">
+            <Link
+              legacyBehavior
+              href="https://INWSOLUCOES.short.gy/SEMENTES_INW"
+            >
               <a target="_blank">
                 <img src="/static/images/download.png" />
               </a>
@@ -178,7 +181,7 @@ export default function FastSeed() {
       <section className={styles.footer}>
         <div className={styles.interno}>
           <div className={styles.box3}>
-          <h2> Somos o pit stop do Agro</h2>
+            <h2> Somos o pit stop do Agro</h2>
           </div>
 
           <div className={styles.box2}>
@@ -188,6 +191,17 @@ export default function FastSeed() {
           </div>
         </div>
       </section>
+
+      <div className={styles.whats}>
+        <Link
+          legacyBehavior
+          href="https://api.whatsapp.com/send?phone=5554991391183&text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20tenho%20interesse%20no%20produto%20Fastseed"
+        >
+          <a target="_blank">
+            <img src="/whatsapp.png" alt="Whats App" />
+          </a>
+        </Link>
+      </div>
 
       <Whats />
       <Rodape />

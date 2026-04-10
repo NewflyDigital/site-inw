@@ -2,9 +2,7 @@ import Link from "next/link";
 import styles from "../styles/Banner.module.css";
 import { useState } from "react";
 
-
 function Banner() {
-
   const handleSubmit = (e) => {
     e.preventDefault();
     // Lógica do envio
@@ -18,9 +16,8 @@ function Banner() {
       <div className={styles.interno}>
         <div className={styles.box}>
           <h2>
-            somos a força do <i>agro</i> brasileiro
+            Somos o <i>pit stop</i> do agro
           </h2>
-
         </div>
         <div className={styles.box2}>
           <p>

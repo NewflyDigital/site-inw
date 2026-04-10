@@ -38,11 +38,17 @@ export default function Fertilog() {
             <h2 className={styles.titulo}>A CAÇAMBA FERTILOG</h2>
 
             <p className={styles.paragrafo}>
-            A Caçamba Fertilog foi desenvolvida para transformar caminhões Roll On Roll Off em eficientes unidades de transporte e abastecimento de fertilizantes a granel, proporcionando agilidade, segurança e alta produtividade nas operações agrícolas.
+              A Caçamba Fertilog foi desenvolvida para transformar caminhões
+              Roll On Roll Off em eficientes unidades de transporte e
+              abastecimento de fertilizantes a granel, proporcionando agilidade,
+              segurança e alta produtividade nas operações agrícolas.
             </p>
 
             <p className={styles.paragrafo}>
-              Construída em inox e equipada com sistema de descarga lateral, a Caçamba Fertilog permite o abastecimento rápido de plantadeiras, adubadeiras e silos bolsa, eliminando o uso de sacarias e Big Bags e reduzindo significativamente os custos operacionais da lavoura.
+              Construída em inox e equipada com sistema de descarga lateral, a
+              Caçamba Fertilog permite o abastecimento rápido de plantadeiras,
+              adubadeiras e silos bolsa, eliminando o uso de sacarias e Big Bags
+              e reduzindo significativamente os custos operacionais da lavoura.
             </p>
 
             <Link legacyBehavior href="/contato">
@@ -59,7 +65,7 @@ export default function Fertilog() {
           <div className={styles.box}>
             <img
               className={styles.produtosleft}
-            src="/static/images/produtos/LinhaDeFertilizantes/Cacamba-Fertilog-01.jpg"
+              src="/static/images/produtos/LinhaDeFertilizantes/Cacamba-Fertilog-01.jpg"
             />
           </div>
         </div>
@@ -71,7 +77,7 @@ export default function Fertilog() {
           <div className={styles.box}>
             <img
               className={styles.produtosright}
-            src="/static/images/produtos/LinhaDeFertilizantes/Cacamba-Fertilog-02.jpg"
+              src="/static/images/produtos/LinhaDeFertilizantes/Cacamba-Fertilog-02.jpg"
             />
           </div>
 
@@ -91,7 +97,8 @@ export default function Fertilog() {
             </p>
 
             <p className={styles.paragrafo}>
-              • Tubo de descarga lateral <strong>dentro da bitola do caminhão</strong>
+              • Tubo de descarga lateral{" "}
+              <strong>dentro da bitola do caminhão</strong>
             </p>
 
             <p className={styles.paragrafo}>
@@ -99,11 +106,11 @@ export default function Fertilog() {
             </p>
 
             <p className={styles.paragrafo}>
-             • Acionamento pela tomada de força do caminhão (TDF)
+              • Acionamento pela tomada de força do caminhão (TDF)
             </p>
 
-             <p className={styles.paragrafo}>
-             • Compatível com sistema Roll On Roll Off
+            <p className={styles.paragrafo}>
+              • Compatível com sistema Roll On Roll Off
             </p>
           </div>
         </div>
@@ -191,6 +198,17 @@ export default function Fertilog() {
           </div>
         </div>
       </section>
+
+      <div className={styles.whats}>
+        <Link
+          legacyBehavior
+          href="https://api.whatsapp.com/send?phone=5554991391183&text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20tenho%20interesse%20no%20produto%20Ca%C3%A7amba%20Fertilog"
+        >
+          <a target="_blank">
+            <img src="/whatsapp.png" alt="Whats App" />
+          </a>
+        </Link>
+      </div>
 
       <Whats />
       <Rodape />

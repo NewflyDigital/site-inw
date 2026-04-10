@@ -187,9 +187,10 @@ export default function Home() {
           </div>
           <div className="w-full max-w-[50rem] flex flex-col items-start justify-center">
             <h2 className="w-full font-[800] uppercase leading-[42px] lg:leading-[72px] text-[32px] lg:text-[56px]">
-              Somos desenvolvedores de&nbsp;
-              <a className="text-[#18bd36]">implementos agrícolas</a>
-              &nbsp;fortes como o<a className="text-[#18bd36]"> agro</a>
+              Somos sinônimo de&nbsp;
+              <a className="text-[#18bd36]">segurança</a>,{" "}
+              <a className="text-[#18bd36]">Qualidade</a>
+              &nbsp;e&nbsp;<a className="text-[#18bd36]">eficiência</a>
             </h2>
             <p className="text-[15px]">
               Atendemos as necessidades do produtor rural e o ajudamos a crescer
@@ -216,7 +217,7 @@ export default function Home() {
           <motion.img
             className={styles.MoveImage}
             style={{ y: y3 }}
-            src="/static/images/Vertical-fastseed.png"
+            src="/static/images/Vertical-beluga.png"
           />
         </div>
       </section>
@@ -264,51 +265,42 @@ export default function Home() {
             />
           </div>
           <div className="w-full max-w-[45rem] flex flex-col items-end gap-4 justify-center">
-            <div className={styles.categorias}>
-              <h4>Água e Calda</h4>{" "}
+            <div className={`${styles.categorias} ${styles.azul}`}>
+              <h4>Água e Calda</h4>
               <Link legacyBehavior href="/implementos">
                 <a className={styles.Botao2}>
                   Implementos
-                  <img
-                    className="w-full max-w-[1rem] ml-2"
-                    src="/static/images/seta-vertical.png"
-                  />
+                  <img src="/static/images/seta-vertical-azul.png" />
                 </a>
               </Link>
             </div>
-            <div className={styles.categorias}>
-              <h4>Linha de Fertilização</h4>{" "}
+
+            <div className={`${styles.categorias} ${styles.verde}`}>
+              <h4>Linha de Fertilização</h4>
               <Link legacyBehavior href="/implementos">
                 <a className={styles.Botao2}>
                   Implementos
-                  <img
-                    className="w-full max-w-[1rem] ml-2"
-                    src="/static/images/seta-vertical.png"
-                  />
+                  <img src="/static/images/seta-vertical.png" />
                 </a>
               </Link>
             </div>
-            <div className={styles.categorias}>
-              <h4>Movimentação de Solo</h4>{" "}
+
+            <div className={`${styles.categorias} ${styles.marrom}`}>
+              <h4>Movimentação de Solo</h4>
               <Link legacyBehavior href="/implementos">
                 <a className={styles.Botao2}>
                   Implementos
-                  <img
-                    className="w-full max-w-[1rem] ml-2"
-                    src="/static/images/seta-vertical.png"
-                  />
+                  <img src="/static/images/seta-vertical-marrom.png" />
                 </a>
               </Link>
             </div>
-            <div className={styles.categorias}>
-              <h4>Abastecimento de Sementes</h4>{" "}
+
+            <div className={`${styles.categorias} ${styles.amarelo}`}>
+              <h4>Abastecimento de Sementes</h4>
               <Link legacyBehavior href="/implementos">
                 <a className={styles.Botao2}>
                   Implementos
-                  <img
-                    className="w-full max-w-[1rem] ml-2"
-                    src="/static/images/seta-vertical.png"
-                  />
+                  <img src="/static/images/seta-vertical-amarela.png" />
                 </a>
               </Link>
             </div>

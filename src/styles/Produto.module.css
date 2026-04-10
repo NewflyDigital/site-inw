@@ -1,18 +1,16 @@
-
 .backgroundimg {
-  
   background-image: url(/static/images/banner-interno.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   flex-direction: row;
   color: #ffffff;
   height: 50vh;
 }
 
-.backgroundimg span{
+.backgroundimg span {
   font-size: 24px;
   letter-spacing: 8px;
   font-weight: 200;
@@ -20,10 +18,9 @@
   margin-top: 1rem;
 }
 
-.backgroundimg h2{
+.backgroundimg h2 {
   font-size: 56px;
 }
-
 
 .banquemsomos {
   background-image: url(/static/images/banner-interno.jpg);
@@ -83,7 +80,6 @@
   padding: 10rem;
 }
 
-
 .interno4 {
   display: flex;
   flex-direction: row;
@@ -137,7 +133,6 @@
   color: #ffffff;
 }
 
-
 .produtosleft {
   width: 100%;
   max-width: 30rem;
@@ -149,8 +144,6 @@
   max-width: 30rem;
   margin-right: 5rem;
 }
-
-
 
 .barra {
   display: flex;
@@ -186,7 +179,7 @@
   font-weight: 600;
 }
 
-.activeTab .mvvBox  {
+.activeTab .mvvBox {
   transition: 1s ease-in-out;
   border-bottom: 0.8rem solid #18bd36;
   padding: 4rem 4rem;
@@ -201,7 +194,7 @@
 
 .mvvBox {
   width: 100%;
-  border: 1px solid #CDCDCD;
+  border: 1px solid #cdcdcd;
   padding: 4.8rem 4rem;
   width: 100%;
   display: flex;
@@ -259,15 +252,13 @@
   max-width: 800px;
   height: auto;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 
-  
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-
 
 /*Botão*/
 .Botao {
@@ -314,15 +305,13 @@
   text-transform: uppercase;
 }
 
-.paragrafo{
-  color:#3D3D3D;
-  font-size:16px;
-  line-height:1.6;
-  margin-bottom:1rem;
+.paragrafo {
+  color: #3d3d3d;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 1rem;
   margin-right: 2rem;
 }
-
-
 
 /*Footer*/
 
@@ -375,8 +364,22 @@
   transition: background 0.3s ease;
 }
 
-@media only screen and (max-width: 926px) {
+.whats {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 12345678;
+}
 
+.whats img {
+  max-width: 5rem;
+  z-index: 12345678;
+}
+
+@media only screen and (max-width: 926px) {
   .backgroundimg {
     height: 35vh;
     text-align: center;
@@ -529,4 +532,13 @@
     gap: 2rem;
   }
 
+  .whats {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 999;
+  }
 }
