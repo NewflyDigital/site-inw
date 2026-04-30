@@ -13,10 +13,13 @@ export default async function handler(req, res) {
 
   const { nome, email, telefone, empresa, mensagem } = req.body;
 
-  const apiKey = process.env.BREVO_API_KEY;
+  const apiKey = process.env.BREVO_API_KEY_NOVA;
 
   console.log("🔎 Verificando ENV...");
-  console.log("ENV BREVO_API_KEY:", apiKey ? "EXISTE ✅" : "NÃO EXISTE ❌");
+  console.log(
+    "ENV BREVO_API_KEY_NOVA:",
+    apiKey ? "EXISTE ✅" : "NÃO EXISTE ❌",
+  );
 
   if (!apiKey) {
     console.log("❌ API KEY NÃO ENCONTRADA");
@@ -32,11 +35,11 @@ export default async function handler(req, res) {
   const body = {
     sender: {
       name: "Site INW Soluções Agrícolas",
-      email: "contato@inw.com.br",
+      email: "contato@inwsolucoes.com.br",
     },
     to: [
       {
-      email: "contato@inw.com.br",
+        email: "fabioa.slima1@gmail.com",
         name: "Site INW Soluções Agrícolas",
       },
     ],
@@ -56,7 +59,7 @@ export default async function handler(req, res) {
     const response = await axios.post(
       "https://api.brevo.com/v3/smtp/email",
       body,
-      { headers }
+      { headers },
     );
 
     console.log("✅ SUCESSO BREVO!");
@@ -67,7 +70,6 @@ export default async function handler(req, res) {
       success: true,
       brevoResponse: response.data,
     });
-
   } catch (error) {
     console.log("🔥 ERRO COMPLETO BREVO:");
 
