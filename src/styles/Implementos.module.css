@@ -225,8 +225,9 @@
 .produtos {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
+  gap: 4rem;
 }
 
 .cardProduto {
