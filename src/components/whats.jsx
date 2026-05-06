@@ -4,7 +4,7 @@ import Link from "next/link";
 function Whats() {
   return (
     <div className={styles.background}>
-      <Link legacyBehavior href="https://api.whatsapp.com/send?phone=">
+      <Link legacyBehavior href="https://api.whatsapp.com/send?phone=5554991391183">
         <a target="_blank">
           <img src="/whatsapp.png" alt="Whats App" />
         </a>

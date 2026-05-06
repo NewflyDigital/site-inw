@@ -39,7 +39,7 @@ export default async function handler(req, res) {
     },
     to: [
       {
-        email: "fabioa.slima1@gmail.com",
+        email: "contato@inwsolucoes.com.br",
         name: "Site INW Soluções Agrícolas",
       },
     ],
