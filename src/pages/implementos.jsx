@@ -153,11 +153,22 @@ export default function Implementos() {
     },
 
     {
+      /*
+      {
       id: 17,
       nome: "Big Tanque",
       imagem: "/static/images/produtos/categorias-bigtanque.png",
       categoria: "Água e Calda",
       url: "/AguaCalda/big-tanque",
+    },
+    */
+    },
+    {
+      id: 17,
+      nome: "Big Tanque Bombeiro",
+      imagem: "/static/images/produtos/AguaECalda/bigtanque-bombeiro-00.jpg",
+      categoria: "Água e Calda",
+      url: "/AguaCalda/BigTanque-Bombeiro",
     },
 
     {
