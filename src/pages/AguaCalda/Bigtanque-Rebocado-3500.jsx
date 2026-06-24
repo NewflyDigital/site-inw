@@ -35,7 +35,7 @@ export default function BigTanqueEspeciais() {
       <section className={styles.background}>
         <div className={styles.interno}>
           <div className={styles.box3}>
-            <h2 className={styles.titulo}>BIG TANQUE REBOCADO 2500</h2>
+            <h2 className={styles.titulo}>BIG TANQUE REBOCADO 3500</h2>
 
             <p className={styles.paragrafo}>
               O Big Tanque Rebocado 3500 foi projetado para oferecer mobilidade
@@ -156,7 +156,7 @@ export default function BigTanqueEspeciais() {
               className={styles.descricao}
               src={
                 activeTab === "descricao"
-                  ? "/static/images/produtos/AguaECalda/Bigtanque-Rebocado-3500-03.jpg"
+                  ? "/static/images/produtos/AguaECalda/Bigtanque-Rebocado-3500-01.jpg"
                   : "/static/images/produtos/AguaECalda/Bigtanque-Rebocado-3500-02.jpg"
               }
             />

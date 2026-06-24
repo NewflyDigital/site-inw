@@ -26,7 +26,7 @@ export default function Fertilog() {
         <div className={styles.interno2}>
           <img
             className={styles.produto}
-            src="/static/images/produtos/fertilog.png"
+            src="/static/images/produtos/linhadefertilizantes/Fertilog 15.0-1500-00.png"
           />
         </div>
       </section>
@@ -62,7 +62,7 @@ export default function Fertilog() {
           <div className={styles.box}>
             <img
               className={styles.produtosleft}
-              src="/static/images/produtos/Fertilog/fertilog-01.png"
+              src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-15-0-1500-01.jpg"
             />
           </div>
         </div>
@@ -74,7 +74,7 @@ export default function Fertilog() {
           <div className={styles.box}>
             <img
               className={styles.produtosright}
-              src="/static/images/produtos/Fertilog/fertilog-02.png"
+              src="/static/images/produtos/LinhaDeFertilizantes/Fertilog-15-0-1500-02.jpg"
             />
           </div>
 
@@ -168,8 +168,8 @@ export default function Fertilog() {
               className={styles.descricao}
               src={
                 activeTab === "descricao"
-                  ? "/static/images/produtos/Fertilog/fertilog-03.png"
-                  : "/static/images/produtos/Fertilog/fertilog-04.png"
+                  ? "/static/images/produtos/LinhaDeFertilizantes/Fertilog-15-0-1500-03.jpg"
+                  : "/static/images/produtos/LinhaDeFertilizantes/Fertilog-15-0-1500-01.jpg"
               }
             />
           </div>
