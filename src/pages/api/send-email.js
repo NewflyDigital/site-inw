@@ -42,6 +42,10 @@ export default async function handler(req, res) {
         email: "contato@inwsolucoes.com.br",
         name: "Site INW Soluções Agrícolas",
       },
+      {
+        email: "paloma@inwsolucoes.com.br",
+        name: "Site INW Soluções Agrícolas",
+      },
     ],
     subject: "Contato do Site",
     htmlContent: `
