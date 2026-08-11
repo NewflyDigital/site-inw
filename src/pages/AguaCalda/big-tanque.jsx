@@ -93,7 +93,7 @@ export default function BigTanque() {
             </p>
 
             <p className={styles.paragrafo}>
-              • Bomba em polipropileno de <strong>2"</strong>
+              • Bomba em polipropileno de <strong>2&quot;</strong>
             </p>
 
             <p className={styles.paragrafo}>
@@ -115,10 +115,7 @@ export default function BigTanque() {
           <div>
             <p>Baixar catálogo</p>
 
-            <Link
-              legacyBehavior
-              href="https://INWSOLUCOES.short.gy/AGUAECALDAINW"
-            >
+            <Link legacyBehavior href="/static/docs/Catalago-INW-2026.pdf">
               <a target="_blank">
                 <img src="/static/images/download.png" />
               </a>

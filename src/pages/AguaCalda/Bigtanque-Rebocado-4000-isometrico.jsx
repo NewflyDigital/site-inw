@@ -115,10 +115,7 @@ export default function BigTanqueEspeciais() {
           <div>
             <p>Baixar catálogo</p>
 
-            <Link
-              legacyBehavior
-              href="https://INWSOLUCOES.short.gy/AGUAECALDAINW"
-            >
+            <Link legacyBehavior href="/static/docs/Catalago-INW-2026.pdf">
               <a target="_blank">
                 <img src="/static/images/download.png" />
               </a>

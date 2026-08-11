@@ -1,5 +1,5 @@
 import axios from "axios";
-
+/*Conta Brevo na inw.marketing1@gmail.com*/
 export default async function handler(req, res) {
   console.log("=================================");
   console.log("📩 API FOI CHAMADA");

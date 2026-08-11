@@ -126,7 +126,7 @@ export default function Fertilog() {
           <div>
             <p>Baixar catálogo</p>
 
-            <Link legacyBehavior href="https://INWSOLUCOES.short.gy/SOLO_INW">
+            <Link legacyBehavior href="/static/docs/Catalago-INW-2026.pdf">
               <a target="_blank">
                 <img src="/static/images/download.png" />
               </a>
