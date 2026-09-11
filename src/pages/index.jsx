@@ -155,7 +155,7 @@ export default function Home() {
               </a>
             </h2>
             <p>
-              O implemento que realiza o manejo de solo com foco em
+              O implemento que realiza o manejo dos fertilizantes com foco em
               produtividade, economia de insumos e redução da operação de forma
               sustentável e inteligente.
             </p>
