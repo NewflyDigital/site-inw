@@ -34,7 +34,7 @@ function Rodape() {
               className={styles.logo}
             />
             <p>
-              <b>Victor GraefF/RS</b>
+              <b>Victor Graeff/RS</b>
               <br />
               RS 142 lote 01, KM 38
               <br />
