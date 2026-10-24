@@ -157,7 +157,7 @@ export default function Fertilog() {
               className={styles.descricao}
               src={
                 activeTab === "descricao"
-                  ? "/static/images/produtos/LinhaDeFertilizantes/Fertilog-PlataformaOuChassi-22.5ton-03.jpg"
+                  ? "/static/images/produtos/LinhaDeFertilizantes/Fertilog-PlataformaOuChassi-22.5ton-01.jpg"
                   : "/static/images/produtos/LinhaDeFertilizantes/Fertilog-PlataformaOuChassi-22.5ton.jpg"
               }
             />
