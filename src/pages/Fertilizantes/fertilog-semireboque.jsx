@@ -159,7 +159,7 @@ export default function Fertilog() {
               src={
                 activeTab === "descricao"
                   ? "/static/images/produtos/LinhaDeFertilizantes/Fertilog-SemiReboque-03.jpg"
-                  : "/static/images/produtos/LinhaDeFertilizantes/Fertilog-SemiReboque-04.jpg"
+                  : "/static/images/produtos/LinhaDeFertilizantes/Fertilog-SemiReboque-01.jpg"
               }
             />
           </div>

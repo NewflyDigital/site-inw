@@ -36,7 +36,7 @@ export default function BigTanque4000() {
       <section className={styles.background}>
         <div className={styles.interno}>
           <div className={styles.box3}>
-            <h2 className={styles.titulo}>BIG TANQUE REBOCADO 9500</h2>
+            <h2 className={styles.titulo}>TANQUES VERTICAIS DE POLIETILENO</h2>
 
             <p className={styles.paragrafo}>
               O Tanque BigLit foi desenvolvido para o transporte e armazenamento

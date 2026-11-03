@@ -61,7 +61,7 @@ export default function BigTanque4000() {
           <div className={styles.box}>
             <img
               className={styles.produtosleft}
-              src="/static/images/produtos/AguaECalda/Bigtanque-Rebocado-9500-01.jpg"
+              src="/static/images/produtos/AguaECalda/Bigtanque-Roll-13000-01.jpg"
               alt=""
             />
           </div>
@@ -74,7 +74,7 @@ export default function BigTanque4000() {
           <div className={styles.box}>
             <img
               className={styles.produtosright}
-              src="/static/images/produtos/AguaECalda/Bigtanque-Rebocado-9500-02.jpg"
+              src="/static/images/produtos/AguaECalda/Bigtanque-Roll-13000-04.jpg"
               alt=""
             />
           </div>

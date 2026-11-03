@@ -35,7 +35,7 @@ export default function BigTanqueEspeciais() {
       <section className={styles.background}>
         <div className={styles.interno}>
           <div className={styles.box3}>
-            <h2 className={styles.titulo}>BIG TANQUE REBOCADO 3500</h2>
+            <h2 className={styles.titulo}>BIG TANQUE REBOCADO 3500/600</h2>
 
             <p className={styles.paragrafo}>
               O Big Tanque Rebocado 3500 foi projetado para oferecer mobilidade

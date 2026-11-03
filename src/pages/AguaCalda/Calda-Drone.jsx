@@ -83,14 +83,23 @@ export default function BigTanque4000() {
           <div className={`${styles.box} text-center`}>
             <h2 className={styles.titulo}>Principais Características</h2>
 
-            <p className={styles.paragrafo}>• Sistema de preparo de calda</p>
+            <p className={styles.paragrafo}>
+              • Modelos de 250, 350, 600 e 1.000 litros
+            </p>
 
-            <p className={styles.paragrafo}>• Estrutura compacta</p>
+            <p className={styles.paragrafo}>
+              • Tanques redondos de polietileno com tampa e lava-frascos
+            </p>
 
-            <p className={styles.paragrafo}>• Bomba de transferência</p>
+            <p className={styles.paragrafo}>• Duas opções de bomba</p>
 
-            <p className={styles.paragrafo}>• Tanque em polietileno</p>
-            <p className={styles.paragrafo}>• Fácil operação</p>
+            <p className={styles.paragrafo}>
+              • Dupla agitação com 2 bombas de 12V e 20 L/min
+            </p>
+            <p className={styles.paragrafo}>
+              • Motor a gasolina de 3,5 hp, com bomba de 1&quot; e vazão de 350
+              L/min
+            </p>
           </div>
         </div>
       </section>
