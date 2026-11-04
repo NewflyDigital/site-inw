@@ -65,11 +65,13 @@ function Menu() {
               <a>Home</a>
             </Link>
           </li>
+          {/*
           <li className={styles.li}>
             <Link legacyBehavior href="/encontre-um-vendedor">
               <a>Encontre um vendedor</a>
             </Link>
           </li>
+          */}
 
           <li className={styles.li}>
             <Link legacyBehavior href="/implementos">
