@@ -52,7 +52,7 @@ export default function Implementos() {
       id: 4,
       nome: "Caçamba Fertilog",
       imagem:
-        "/static/images/Produtos/LinhaDeFertilizantes/Cacamba-Fertilog-00.jpg",
+        "/static/images/Produtos/LinhaDeFertilizantes/Cacamba-Fertilog-01.jpg",
       categoria: "Linha de Fertilização",
       url: "/Fertilizantes/cacamba-fertilog",
     },
@@ -60,7 +60,7 @@ export default function Implementos() {
       id: 5,
       nome: "Canudão 3000",
       imagem:
-        "/static/images/Produtos/LinhaDeFertilizantes/Canudao-3000-00.jpg",
+        "/static/images/Produtos/LinhaDeFertilizantes/Canudao-3000-01.jpg",
       categoria: "Linha de Fertilização",
       url: "/Fertilizantes/canudao-3000",
     },
@@ -404,6 +404,8 @@ export default function Implementos() {
         </div>
       </section>
 
+      {/*
+     Banner
       <section className={styles.background}>
         <img
           className={styles.banquemsomos}
@@ -411,6 +413,7 @@ export default function Implementos() {
         />
       </section>
 
+     */}
       <section className={styles.background3}>
         <div className={styles.sessoes}>
           {categorias.map((filtro) => {

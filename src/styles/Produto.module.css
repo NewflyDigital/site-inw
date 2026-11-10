@@ -1,12 +1,12 @@
 .backgroundimg {
-  background-image: url(/static/images/banner-interno.jpg);
+  /* background-image: url(/static/images/banner-interno.jpg);*/
   background-position: center;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  color: #ffffff;
+  color: #18bd36;
   height: 50vh;
 }
 
@@ -20,6 +20,7 @@
 
 .backgroundimg h2 {
   font-size: 56px;
+  font-weight: 900;
 }
 
 .banquemsomos {
